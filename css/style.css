@@ -1,113 +1,95 @@
-body {
-	margin: 0;
-	padding: 0;
-	font-family: Helvetica, Arial, sans-serif;
-	color: #666;
-	background: #f2f2f2; 
-	font-size: 1em;
-	line-height: 1.5em;
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: monospace;
+    color: #222222;
+	list-style: none;
+	box-sizing: border-box;
+  }
+:root{
+	font-size: 16px;
+}
+body{
+    box-sizing: border-box;
+    height: 145vh;
+	position: relative;
+	background-color: grey;
+	font-family: Arial, Helvetica, sans-serif;
+
 }
 
-h1 {
-	font-size: 2.3em;
-	line-height: 1.3em;
-	margin: 15px 0;
-	text-align: center;
-	font-weight: 300;
+header{
+	width: 100%;
+	position: fixed;
+	top: 0;
+	left: 0;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 0 5%;
+	height: 100px;
+	background-color: black;
+}
+  
+.logo {
+	width: 6rem;
+}
+  
+.menu{
+	display: flex;
+	justify-content: center;
+	align-items: center;
 }
 
-p {
-	margin: 0 0 1.5em 0;
-}
-    
-img {
-	max-width: 10%;
-	height: auto;
-}
-
-#main-header {
-	background: #333;
-	color: white;
-	height: 120px;
-}	
-	#main-header a {
-		color: white;
-	}
-
-/*
- * Logo
- */
-#logo-header {
-	float: left;
-	padding: 15px 0 0 20px;
+.cabecera-login{
 	text-decoration: none;
-}
-	#logo-header:hover {
-		color: #0b76a6;
-	}
-	
-	#logo-header .site-name {
-		display: block;
-		font-weight: 700;
-		font-size: 1.2em;
-	}
-	
-	#logo-header .site-desc {
-		display: block;
-		font-weight: 300;
-		font-size: 0.8em;
-		color: #999;
-	}
-	
-
-/*
- * Navegación
- */
-nav {
-	float: right;
-}
-	nav ul {
-		margin: 0;
-		padding: 0;
-		list-style: none;
-		padding-right: 20px;
-	}
-	
-		nav ul li {
-			display: inline-block;
-			line-height: 80px;
-		}
-			
-			nav ul li a {
-				display: block;
-				padding: 0 10px;
-				text-decoration: none;
-			}
-			
-				nav ul li a:hover {
-					background: #0b76a6;
-				}
-
-#main-content {
-	background: white;
-	width: 90%;
-	max-width: 800px;
-	margin: 20px auto;
-	box-shadow: 0 0 10px rgba(0,0,0,.1);
-}
-
-	#main-content header,
-	#main-content .content {
-		padding: 40px;
-	}
-
-#main-footer {
-	background: #333;
+	margin: 0 15px;
+	font-size: 18px;
+	font-weight: 600;
+	cursor: pointer;
 	color: white;
-	text-align: center;
-  height: 40px;
-  bottom: 0px;
-	padding: 20px;
-  width: 100%;
-	margin-left: 0px;
+
 }
+.sesion{
+	text-decoration: none;
+	margin: 0 15px;
+	font-size: 18px;
+	font-weight: 600;
+	cursor: pointer;
+	color: white;
+	background-color: rgb(51, 177, 250);
+	border:  solid 1.5rem rgb(51, 177, 250);
+	border-radius: 200px;
+}
+.sesion:hover{
+	border:  solid 1.5rem rgb(204, 197, 70);
+	background-color: rgb(204, 197, 70);
+	color: rgb(0, 0, 255);
+}
+.cabecera-login:hover{
+	color: rgb(0, 0, 255);
+}
+#menu{
+	display: none;
+}
+
+.menu-icono{
+	width: 25px;
+}
+
+
+label{
+	cursor: pointer;
+	display: none;
+}
+
+img.cabecera-login{
+	padding: 10px 24px;
+	border-radius: 30px;
+	background-color: red;
+	color: white;
+	font-weight: 2rem;
+	cursor: pointer;
+}
+
