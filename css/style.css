@@ -93,3 +93,38 @@ img.cabecera-login{
 	cursor: pointer;
 }
 
+/*
+ESTA PARTE ESTA MAL NECESITO PREGUNTARLE A ALEJANDRO
+*/
+@media(max-width:990px) {
+	.menu {
+		padding:30px ;
+		margin: 0;
+	}
+
+	label{
+		display: initial;
+	}
+
+	.menu{
+		position: absolute;
+		top: 100%;
+		left: 0;
+		right: 0;
+		background-color: black;
+		display: none;
+	}
+
+	.cabecera-login{
+		margin: 0 0 20px 0;
+		width: 100%;
+	}
+
+	.sesion{
+		width: 100px;
+	}
+
+	#menu:checked ~ .menu{
+		display: initial;
+	}
+}
