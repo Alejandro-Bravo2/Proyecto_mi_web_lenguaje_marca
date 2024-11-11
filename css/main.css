@@ -1,0 +1,59 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: monospace;
+    color: #222222;
+  }
+
+body{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: Arial;
+    font-size: 1rem;
+
+}
+
+a {
+    text-decoration: none;
+}
+
+
+  
+  
+header{
+    display: inline-flex;
+    width: 100%;
+    background: green;
+    justify-content: space-between;
+    align-items: center;
+}
+header ul.login{
+    width: 90%;
+    text-align: end;
+    justify-content: end;
+}
+
+header a{
+    background: orange;
+}
+header img{
+    max-width: 7rem;
+}
+header nav{
+    background: mediumpurple;
+}
+header ul{
+    justify-content: center;
+    list-style-type: none;
+    gap: 0.5rem;
+    list-style: none;
+    align-content: center;
+}
+header article.principio{
+    align-items: center;
+}
+img {
+    width: 20rem;
+}
