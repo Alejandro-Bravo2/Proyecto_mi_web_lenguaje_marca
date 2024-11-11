@@ -6,6 +6,15 @@
     color: #222222;
   }
 
+  #main-header {
+	background: #333;
+	color: white;
+	height: 120px;
+}	
+	#main-header a {
+		color: white;
+	}
+
 body{
     box-sizing: border-box;
     padding: 0;
@@ -30,14 +39,14 @@ header{
     align-items: center;
 }
 header ul.login{
-    width: 90%;
+    display: inline;
     text-align: end;
     justify-content: end;
 }
-
-header a{
-    background: orange;
+nav ul  {
+    list-style-type: none;
 }
+
 header img{
     max-width: 7rem;
 }
@@ -51,7 +60,11 @@ header ul{
     list-style: none;
     align-content: center;
 }
-header article.principio{
+header ul li{
+    display: inline;
+    margin: 0 15px;
+}
+header > article.principio{
     align-items: center;
 }
 img {
