@@ -98,12 +98,14 @@ ESTA PARTE ESTA MAL NECESITO PREGUNTARLE A ALEJANDRO
 */
 @media(max-width:990px) {
 	.menu {
+		display: none;
 		padding:30px ;
 		margin: 0;
 	}
 
 	label{
-		display: initial;
+		display: block;
+		cursor: pointer;
 	}
 
 	.menu{
@@ -112,19 +114,24 @@ ESTA PARTE ESTA MAL NECESITO PREGUNTARLE A ALEJANDRO
 		left: 0;
 		right: 0;
 		background-color: black;
-		display: none;
 	}
 
-	.cabecera-login{
-		margin: 0 0 20px 0;
-		width: 100%;
-	}
+	
 
 	.sesion{
-		width: 100px;
+		width: 50%;
+		margin: 10px auto;
+		text-align: center;
+
+	}
+	.cabecera-login{
+		margin: 0 auto;
+		width: 50%;
+		display: flex;
+		align-items: flex-end;
 	}
 
 	#menu:checked ~ .menu{
-		display: initial;
+		display: block;
 	}
 }
