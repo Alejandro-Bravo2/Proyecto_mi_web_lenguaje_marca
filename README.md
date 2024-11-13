@@ -83,15 +83,18 @@ de programación no nos permitirían buen rendimiento en nuestra web ya que cons
 **Características propias de cada lenguaje**
 Para explicar estas carácteristicas voy a tomar como ejemplos los lenguajes: HTML, MARKDOWN, XML y JSON
 
-- Html es un lenguaje que tiene una sintaxis de etiquetas las cuales son muy diversas pero útiles ya que apesar de que no es un lenguaje con una gran variedad de opciones
-al ser tan bueno en el ambito web y cumplir sus necesidades entonces es muy usado.
-- Markdown es un lenguaje que su sintaxis es tan sencilla que la usamos día a día y sin darnos cuenta ya que todos nosotros escribimos mensajes en redes sociales o aplicaciones y estas
-usan markdown, apesar de ser como html llega a cumplir también su función la cual es formatear texto de forma sencilla y flexible para el usuario.
-- Xml es un lenguaje que tiene un sintaxis muy parecido a html pero con la peculiaridad de permitir mucha mas flexibilidad permitiendo al usuario
-añadir atributos a sus etiquetas dando lugar a una gran abanico de opciones para los usuarios o técnicos ya que podrían usar este lenguaje para 
-almacenar datos y tenerlo todo centralizado y organizado.
-- Json es un lenguaje que tiene una sintaxis ligera y fácil siendo definida como claves valor al igual que un diccionario. No es tan legible como xml, markdown o html
-pero sigue siendo fácil para el humano apesar de ser más cercano al lenguaje máquina que los otros 3. 
+- Html tiene carácteristicas únicas como por ejemplo ser un estándar para crear estructuras y contenidos para páginas webs, 
+también cuenta con etiquetas predefinidas para dar formato y organizar el contenido, html trabaja junto con css
+permitiendo que css le de la personalización extra para que el contenido sea mucho más bonito y llamativo que otros lenguajes de marca.
+
+- Markdown la principal carácteristica única es su sencillez ya que si no fuera por eso no se usaría en tantas aplicaciones y documentación,
+también tiene una opción de convertir a html lo cual permite que sea idoneo para crear páginas webs facilmente. Su formato es muy ligero y flexible
+permitiendo ser usado en tantas opciones.
+
+- Xml es un lenguaje que una de sus principales carácteristicas es que permite crear etiquetas personalizadas y las etiquetas son autodescriptivas
+
+- Json la principal carácteristica es su eficiencia y su lenguaje nativo de javascript permite que muchos programas puedan analizarlo
+y generar json además se puede complementar muy bien con APIs.
 
 
 
