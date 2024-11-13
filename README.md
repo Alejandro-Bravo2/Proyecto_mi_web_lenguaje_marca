@@ -50,13 +50,53 @@ Vamos a clasificar estos lenguajes de marca por:
     - Creación de documentos y usado en múltiples plataforma: Markdown
     - Usado para el intercambio de datos entre servidor y cliente: JSON
 - Sintaxis: 
-    - HTML: Utiliza etiquetas para definir su contenido y sus atributos. Su sintaxis es simple.
-    - Markdown: Utiliza caracteres especiales para indicar el formato de su contenido. Su sintaxis es sencilla.
-    - XML: Utiliza etiquetas para definir su contenido y sus atributos. Su sintaxis es más compleja que html.
-    - JSON: Su sintaxis está basada en el modelo de clave valor. Su sintaxis es sencilla.
+    - Html es un lenguaje que tiene una sintaxis de etiquetas las cuales son muy diversas pero útiles ya que apesar de que no es un lenguaje con una gran variedad de opciones
+    al ser tan bueno en el ambito web y cumplir sus necesidades entonces es muy usado.
+    - Markdown es un lenguaje que su sintaxis es tan sencilla que la usamos día a día y sin darnos cuenta ya que todos nosotros escribimos mensajes en redes sociales o aplicaciones y estas
+    usan markdown, apesar de ser como html llega a cumplir también su función la cual es formatear texto de forma sencilla y flexible para el usuario.
+    - Xml es un lenguaje que tiene un sintaxis muy parecido a html pero con la peculiaridad de permitir mucha mas flexibilidad permitiendo al usuario
+    añadir atributos a sus etiquetas dando lugar a una gran abanico de opciones para los usuarios o técnicos ya que podrían usar este lenguaje para 
+    almacenar datos y tenerlo todo centralizado y organizado.
+    - Json es un lenguaje que tiene una sintaxis ligera y fácil siendo definida como claves valor al igual que un diccionario. No es tan legible como xml, markdown o html
+    pero sigue siendo fácil para el humano apesar de ser más cercano al lenguaje máquina que los otros 3. 
 
 
 **Diferencia en el ámbito de aplicación**
+Ambitos de aplicación de los lenguajes:
+1. HTML: Se usa para el desarrollo web en concreto en la creación de la estructura y organización de la página web.
+2. Markdown: Se usa en documentos de documentación, aplicaciones y blogs. Un ejemplo de este sería todas las aplicaciones de redes sociales como por ejemplo whatsap.
+3. XML: Se usa en ficheros de configuración de bases de datos o aplicaciones, también se usa como tipo de fichero para el intercambio de datos entre servidor y cliente.
+4. JSON: Se usa como tipo de fichero para el intercambio de datos entre servidor y cliente, también es común encontrarlo en ficheros para almacenar datos en bases de datos como por ejemplo MongoDB.
+
+**La necesidad y los ámbitos específicos de aplicació de un lenguaje de marcas de propósito general**
+Un lenguaje de marca de propósito general significa que su uso o está limitado a solo un proposito o situación en concreta, sino que este lenguaje 
+estaría preparado para muchas situaciones diferentes por ejemplo un lenguaje que sea compatible para diseñar páginas webs y tambien poder usarlo
+como formateador de texto. Por lo que provocaría que aprendiendo un lenguaje de marca estarías aprendiendo multiples técnologías.
+Un claro ejemplo de lenguajes de marca de propósito general son html y markdown ya que con ellos podemos hacer páginas webs, formatear textos,
+almacenar datos y muchas mas opciones. La principal necesidad de estos lenguajes es que podemos estructurar, organizar,portabilidad, flexibilidad
+legibilidad  y desarrollar aplicaciones o webs, intercambiar datos y crear documentos con estos lenguajes. 
+Todas estas son las principales necesidades por las cuales necesitamos los lenguajes de marca en nuestro
+día a día. Sin ellos tendríamos que escribir siempre textos sin formatos y no podríamos tener los archivos de configuración
+de bases de datos o aplicaciones y todas las páginas webs tendrían que estar hechas con javascript, java con spring, python con django o ruby. Pero estos lenguajes
+de programación no nos permitirían buen rendimiento en nuestra web ya que consumirían mas recursos y además serían mas complejos de hacer y de mantener.
+
+**Características propias de cada lenguaje**
+Para explicar estas carácteristicas voy a tomar como ejemplos los lenguajes: HTML, MARKDOWN, XML y JSON
+
+- Html es un lenguaje que tiene una sintaxis de etiquetas las cuales son muy diversas pero útiles ya que apesar de que no es un lenguaje con una gran variedad de opciones
+al ser tan bueno en el ambito web y cumplir sus necesidades entonces es muy usado.
+- Markdown es un lenguaje que su sintaxis es tan sencilla que la usamos día a día y sin darnos cuenta ya que todos nosotros escribimos mensajes en redes sociales o aplicaciones y estas
+usan markdown, apesar de ser como html llega a cumplir también su función la cual es formatear texto de forma sencilla y flexible para el usuario.
+- Xml es un lenguaje que tiene un sintaxis muy parecido a html pero con la peculiaridad de permitir mucha mas flexibilidad permitiendo al usuario
+añadir atributos a sus etiquetas dando lugar a una gran abanico de opciones para los usuarios o técnicos ya que podrían usar este lenguaje para 
+almacenar datos y tenerlo todo centralizado y organizado.
+- Json es un lenguaje que tiene una sintaxis ligera y fácil siendo definida como claves valor al igual que un diccionario. No es tan legible como xml, markdown o html
+pero sigue siendo fácil para el humano apesar de ser más cercano al lenguaje máquina que los otros 3. 
+
+
+
+
+
 
 
 # PARTE NO HECHA
