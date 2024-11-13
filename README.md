@@ -45,7 +45,7 @@ Los principales lenguajes de marca son:
 4- JSON
 Vamos a clasificar estos lenguajes de marca por:
 - Propósito: El propósito de cada uno de estos lenguajes varía y por eso vamos a clasificarlos:
- - Páginas webs: HTML
+    - Páginas webs: HTML
  - Formatos a documentos de configuración: XML
  - Creación de documentos y usado en múltiples plataforma: Markdown
  - Usado para el intercambio de datos entre servidor y cliente: JSON
