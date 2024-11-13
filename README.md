@@ -37,20 +37,20 @@ Mantenibilidad:
 - Es más fácil ya que como la página web ya tiene una estructura y cada parte la podemos entender fácilmente por sus etiquetas  entonces podemos implementar contenido donde queramos o modificar el contenido sin necesidad de que cada vez que implementamos código tener que encargarnos de ajustar el contenido nuevo con los que ya estaban ni comprender todo el código para saber que hace la parte del código que queremos modificar.
 - También es más fácil de mantener ya que como en el lenguaje de marca incluye identificadores para las etiquetas podemos implementar nuevas configuraciones en una parte del código sin perjudicar todo el resto del código.
 
-Clasificar los lenguajes de marca:
+**Clasificar los lenguajes de marca:**
 Los principales lenguajes de marca son:
-HTML
-Markdown
-XML
-JSON
+1- HTML
+2- Markdown
+3- XML
+4- JSON
 Vamos a clasificar estos lenguajes de marca por:
-Propósito: El propósito de cada uno de estos lenguajes varía y por eso vamos a clasificarlos:
-Páginas webs: HTML
-Formatos a documentos de configuración: XML
-Creación de documentos y usado en múltiples plataforma: Markdown
-Usado para el intercambio de datos entre servidor y cliente: JSON
-Sintaxis: 
-HTML: Utiliza etiquetas para definir su contenido y sus atributos. Su sintaxis es simple.
+- Propósito: El propósito de cada uno de estos lenguajes varía y por eso vamos a clasificarlos:
+ - Páginas webs: HTML
+ - Formatos a documentos de configuración: XML
+ - Creación de documentos y usado en múltiples plataforma: Markdown
+ - Usado para el intercambio de datos entre servidor y cliente: JSON
+- Sintaxis: 
+ - HTML: Utiliza etiquetas para definir su contenido y sus atributos. Su sintaxis es simple.
 Markdown: Utiliza caracteres especiales para indicar el formato de su contenido. Su sintaxis es sencilla.
 XML: Utiliza etiquetas para definir su contenido y sus atributos. Su sintaxis es más compleja que html.
 JSON: Su sintaxis está basada en el modelo de clave valor. Su sintaxis es sencilla.
