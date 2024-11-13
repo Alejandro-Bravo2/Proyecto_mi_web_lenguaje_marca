@@ -1,137 +1,140 @@
-*{
-    box-sizing: border-box;
-    padding: 0;
-    margin: 0;
-    font-family: monospace;
-    color: #222222;
-	list-style: none;
-	box-sizing: border-box;
-  }
-:root{
-	font-size: 16px;
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  font-family: monospace;
+  color: #222222;
+  list-style: none;
+  box-sizing: border-box;
 }
-body{
-    box-sizing: border-box;
-    height: 145vh;
-	position: relative;
-	background-color: grey;
-	font-family: Arial, Helvetica, sans-serif;
+:root {
+  font-size: 16px;
+}
+body {
+  box-sizing: border-box;
+  height: 145vh;
+  position: relative;
+  background-color: grey;
+  font-family: Arial, Helvetica, sans-serif;
+}
 
+header {
+  width: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 5%;
+  height: 100px;
+  background-color: black;
 }
 
-header{
-	width: 100%;
-	position: fixed;
-	top: 0;
-	left: 0;
-	display: flex;
-	justify-content: space-between;
-	align-items: center;
-	padding: 0 5%;
-	height: 100px;
-	background-color: black;
-}
-  
 .logo {
-	width: 6rem;
-}
-  
-.menu{
-	display: flex;
-	justify-content: center;
-	align-items: center;
+  width: 6rem;
 }
 
-.cabecera-login{
-	text-decoration: none;
-	margin: 0 15px;
-	font-size: 18px;
-	font-weight: 600;
-	cursor: pointer;
-	color: white;
-
-}
-.sesion{
-	text-decoration: none;
-	margin: 0 15px;
-	font-size: 18px;
-	font-weight: 600;
-	cursor: pointer;
-	color: white;
-	background-color: rgb(51, 177, 250);
-	border:  solid 1.5rem rgb(51, 177, 250);
-	border-radius: 200px;
-}
-.sesion:hover{
-	border:  solid 1.5rem rgb(204, 197, 70);
-	background-color: rgb(204, 197, 70);
-	color: rgb(0, 0, 255);
-}
-.cabecera-login:hover{
-	color: rgb(0, 0, 255);
-}
-#menu{
-	display: none;
+.menu {
+  display: flex;
 }
 
-.menu-icono{
-	width: 25px;
+.cabecera-lenguajes {
+  text-decoration: none;
+  margin: 0 15px;
+  font-size: 18px;
+  font-weight: 600;
+  cursor: pointer;
+  color: white;
+}
+.sesion {
+  text-decoration: none;
+  margin: 0 15px;
+  font-size: 18px;
+  font-weight: 600;
+  cursor: pointer;
+  color: white;
+  background-color: rgb(51, 177, 250);
+  border: solid 1.5rem rgb(51, 177, 250);
+  border-radius: 200px;
+}
+.sesion:hover {
+  border: solid 1.5rem rgb(204, 197, 70);
+  background-color: rgb(204, 197, 70);
+  color: rgb(0, 0, 255);
+}
+.cabecera-lenguajes:hover {
+  color: rgb(0, 0, 255);
+}
+#menu {
+  display: none;
 }
 
-
-label{
-	cursor: pointer;
-	display: none;
+img.menu-icono {
+  width: 50px;
+  display: flex;
+  align-items: flex-end;
+  align-content: center;
+  padding-left: 10%;
 }
 
-img.cabecera-login{
-	padding: 10px 24px;
-	border-radius: 30px;
-	background-color: red;
-	color: white;
-	font-weight: 2rem;
-	cursor: pointer;
+label {
+  cursor: pointer;
+  display: none;
+}
+
+img.cabecera-lenguajes {
+  padding: 10px 24px;
+  border-radius: 30px;
+  background-color: red;
+  color: white;
+  font-weight: 2rem;
+  cursor: pointer;
 }
 
 /*
 ESTA PARTE ESTA MAL NECESITO PREGUNTARLE A ALEJANDRO
 */
-@media(max-width:990px) {
-	.menu {
-		display: none;
-		padding:30px ;
-		margin: 0;
-	}
+@media (max-width: 990px) {
+  .menu {
+    display: none;
+    padding: 30px;
+    margin: 0;
+  }
+  .menu-sesion {
+    padding: 30px;
+    display: none;
+    margin: 0;
+    margin-top: 20%;
+  }
 
-	label{
-		display: block;
-		cursor: pointer;
-	}
+  label {
+    display: block;
+    cursor: pointer;
+  }
 
-	.menu{
-		position: absolute;
-		top: 100%;
-		left: 0;
-		right: 0;
-		background-color: black;
-	}
+  .menu {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    right: 0;
+    background-color: black;
+  }
 
-	
+  a.sesion {
+	display: block;
+    width: 50%;
+    text-align: center;
+  }
+  .cabecera-lenguajes {
+    margin: 0;
+    width: 50%;
+  }
 
-	.sesion{
-		width: 50%;
-		margin: 10px auto;
-		text-align: center;
-
-	}
-	.cabecera-login{
-		margin: 0 auto;
-		width: 50%;
-		display: flex;
-		align-items: flex-end;
-	}
-
-	#menu:checked ~ .menu{
-		display: block;
-	}
+  #menu:checked ~ .menu {
+    display: block;
+  }
+  #menu:checked ~ .menu-sesion {
+    display: inline;
+  }
 }
