@@ -46,17 +46,17 @@ Los principales lenguajes de marca son:
 Vamos a clasificar estos lenguajes de marca por:
 - Propósito: El propósito de cada uno de estos lenguajes varía y por eso vamos a clasificarlos:
     - Páginas webs: HTML
- - Formatos a documentos de configuración: XML
- - Creación de documentos y usado en múltiples plataforma: Markdown
- - Usado para el intercambio de datos entre servidor y cliente: JSON
+    - Formatos a documentos de configuración: XML
+    - Creación de documentos y usado en múltiples plataforma: Markdown
+    - Usado para el intercambio de datos entre servidor y cliente: JSON
 - Sintaxis: 
- - HTML: Utiliza etiquetas para definir su contenido y sus atributos. Su sintaxis es simple.
-Markdown: Utiliza caracteres especiales para indicar el formato de su contenido. Su sintaxis es sencilla.
-XML: Utiliza etiquetas para definir su contenido y sus atributos. Su sintaxis es más compleja que html.
-JSON: Su sintaxis está basada en el modelo de clave valor. Su sintaxis es sencilla.
+    - HTML: Utiliza etiquetas para definir su contenido y sus atributos. Su sintaxis es simple.
+    - Markdown: Utiliza caracteres especiales para indicar el formato de su contenido. Su sintaxis es sencilla.
+    - XML: Utiliza etiquetas para definir su contenido y sus atributos. Su sintaxis es más compleja que html.
+    - JSON: Su sintaxis está basada en el modelo de clave valor. Su sintaxis es sencilla.
 
 
-Diferencia en el ámbito de aplicación
+**Diferencia en el ámbito de aplicación**
 
 
 # PARTE NO HECHA
