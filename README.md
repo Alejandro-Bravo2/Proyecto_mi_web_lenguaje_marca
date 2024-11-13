@@ -39,10 +39,10 @@ Mantenibilidad:
 
 **Clasificar los lenguajes de marca:**
 Los principales lenguajes de marca son:
-1- HTML
-2- Markdown
-3- XML
-4- JSON
+1. HTML
+2. Markdown
+3. XML
+4. JSON
 Vamos a clasificar estos lenguajes de marca por:
 - Propósito: El propósito de cada uno de estos lenguajes varía y por eso vamos a clasificarlos:
     - Páginas webs: HTML
