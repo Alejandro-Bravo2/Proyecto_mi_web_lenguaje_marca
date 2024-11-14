@@ -6,6 +6,7 @@
 
 
 **Requisitos funcionales:**
+
 Debe de tener un inicio de sesión
 Debe tener menú en la cabecera con los enlaces a cada página
 Debe tener un pie de página que informe sobre redes sociales y licencia
@@ -13,15 +14,18 @@ El logo debe mandarte al logo.
 El cuerpo de la página debe estar dividido en: contenido y la definición de ese contenido.
 
 **Requisitos no funcionales:**
+
 Estandares: He seguido el estándar de W3C para html el cual define el funcionamiento de cada etiqueta.
 Compatibilidad: He usado etiquetas soportadas por todos los navegadores o la gran mayoría de navegadores.
 Compatibilidad: He usado un diseño para que la página web pueda ser vista desde cualquier dispositivo electrónico adaptándose a su pantalla.
 
 **Tecnologías usadas:**
+
 Justificación: Para la justificación he usado prettier para la justificación del código de forma correcta.
 Documentación: La documentación se ha usado para explicar las partes más importantes del código o las que podría llegar a ocasionar confusión a los programadores. La he usado ya que la documentación proporciona una gran ayuda a todas las personas que vayan a revisarla o a mantener la página web, ya que si no documentamos nuestro código sería mucho más complejo de mantener para cualquier usuario que vaya a leer el código de la página web.
 
 **Características generales del lenguaje de marca:**
+
 Las principales características son que el lenguaje de marca permite una construcción de una página web de forma sencilla ya que el lenguaje contiene etiquetas para definir el contenido y estructurarlo de forma sencilla y eficaz. El lenguaje de marca es muy usado en el diseño de páginas web ya que es fácil usarlo además de que podemos usar css y javascript para la personalización del lenguaje de marca provocando que podamos hacer la estructura de la página web con html y personalizando el diseño con otros lenguajes de forma que tenemos la página web muy completa y sin usar un solo lenguaje para hacer la página web lo que provocaría una mayor dificultad ya que habría características que posiblemente ese lenguaje no incluya y también será más difícil de realizar y mantener en un futuro.
 
 
