@@ -98,9 +98,57 @@ y generar json además se puede complementar muy bien con APIs.
 
 
 
+**La estructura de un documento y sus reglas sintácticas**
+Para hablar de estas reglas voy a usar como referencia un documento html ya que cada lenguaje tiene
+sus propias reglas aunque seán parecidas, pero prefiero enforcarme solo en 1 para evitar confusiones.
+
+La estructura de un documento está dividida en 3 partes, estas partes son: cabecera (header), cuerpo del documento(body) y pie de página(fotter).
+En la cabecera pondremos información general sobre el documento o información necesaria, en el cuerpo del documento
+escribiremos la información y en el pie de página escribiremos información relacionada con el cuerpo del documento.
+Las reglas sintácticas vendrían a ser las reglas predefinidas del lenguaje como por ejemplo el cierre de las etiquetas, la jerarquía de las etiquetas
+. Aunque esto no es una regla predefinida en el lenguaje sigue siendo una regla que debemos seguir: Documentar el código en las partes confusas y partes importantes.
 
 
+**La necesidad de crear documentos bien formados y la influencia en su procesamiento**
+Un documento que este bien formado permite al lector una mayor facilidad a la hora de entender el documento además que ofrece una mayor claridad también
+nos permitiría un mejor mantenimiento ya que al tener una buena estructura podríamos modificarlo y actualizarlo sin preocuparnos de que provoquemos un 
+desbalance del documento o malentendidos. 
+A la hora de procesar un documento bien formado es mucho más rápido y eficaz que uno que no esta bien formado ya que al estar bien formado nos proporcionaría
+traspaso de nuestro documento a otros documentos como por ejemplo pdf o en caso de hablar de hojas de calculo podríamos pasarlo de calc a excel sin problemas, pero
+en caso de no tenerlo bien formado podríamos tener errores a la hora del traspaso. En cuanto documentos que se usan en el navegador es vital tener una estructura 
+clara y bien formada ya que en caso de tener el código bien estructurado podrá ejecutarse en el navegador mucho más rápido que uno que no lo esté. 
+También es importante tener documentos bien formados porque en caso de querer tocar partes del documentos podríamos estar sobreescribiendo esa misma parte
+por ejemplo si yo tengo un documento html y con css le estoy dando retoques podría estar reescribiendo la misma etiqueta 2 o más veces probocando que haya mal entendidos
+y no sepamos el porque de nuestro error. Es tan importante la estructura que se crearón estandares como pautas a seguir para todos aquellos que quieran seguir
+una buena estructura.
 
+**Las ventajas que aportan los espacios de nombres.**
+Los espacios de nombres nos aportan muchas ventajas a la hora de escribir código ya que gracias a los espacios de nombres
+tenemos una mejor organización y evitamos muchos conflictos ya que de esta forma un nombre en caso de repetirse puede haber un conflicto
+pero en caso de que metamos ese nombre dentro de otro como si fuera un atributo entonces no se va a repetir ya que al no ser un nombre global
+no ocasionaría errores. Cuando guardamos un valor dentro de otro lo llamamos encapsulamiento. Un ejemplo de esto sería:
+<header>
+    <p class="articulo">Hoy se han avistado ovnis
+    <p class="descripcion">En malaga hoy se han encontrado ovnis
+Si nos referimos a p nos estaríamos refiriendo a las dos pero si nos referimos a la p que tiene la clase articulo solo hay uno.
+De esta forma podríamos referirnos a una etiqueta de forma única sin probocar errores.
+
+**Clasificación de los lenguajes de marca relacionados con web y sus versiones y estándares**
+Los principales lenguajes de marca para su uso en la web son: html, markdown y xml
+
+Funcionalidad:
+- HTML: Es un lenguaje muy sencillo de usar y aprender pero muy versatil para crear páginas webs ya que con su contenido
+pre definido podemos realizar las páginas webs mucho más rapido que usando otros lenguajes de marca.
+- Markdown: No estan usado para la creación de páginas webs pero si es muy usado en páginas webs de documentación o blogs,
+ya que al no implementar la posibilidad de ser personalizable como html con css entonces solo se usa en webs no comerciales.
+- XML: No es muy común verlo en páginas webs pero al tener xslt que nos permite transformar xml en otros lenguajes entonces podríamos llegar a verlo. De por si solo
+lo podríamos encontrar en webs que guarden datos del usuario ya que xml es más flexible que html y markdown en cuanto al tratamiento de datos.
+
+Versiones:
+- HTML: Actualmente tenemos html5 que llevamos con el desde 2008, pero para comprender que cambios se añadieron en cada una de sus versiones los vamos a 
+describir:
+    - HTML 2.0
+    - sdd
 
 # PARTE NO HECHA
 
