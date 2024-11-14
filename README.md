@@ -160,8 +160,27 @@ lo podríamos encontrar en webs que guarden datos del usuario ya que xml es más
 Versiones:
 - HTML: Actualmente tenemos html5 que llevamos con el desde 2008, pero para comprender que cambios se añadieron en cada una de sus versiones los vamos a 
 describir:
-    - HTML 2.0
-    - sdd
+    - HTML 2.0: definió las etiquetas básicas como p, h1,h2... y las tablas.
+    - HTML 3.2: añadió mas etiquetas: iframe y marquee. Estas sirvierón para crear texto animado y incrustar videos en la web.
+    - HTML 4.0: permitió manejar datos de hojas de estilo externas y el uso de formularios iteractivos. Esta versión tubo 3 subversiones siendo estas:
+        - HTML 4.01 strict: No acepta etiquetas obsoletas
+        - HTML 4.01 transitional: Permite el uso de todas las etiquetas de todas las versiones de html incluyendo etiquetas obsoletas.
+        - HTML 4.01 frameset: Soporta las subventanas o videos embebidos en la página web.
+    - HTML 5: añadió soporte nativo a los videos, implementó la funcionalidad de canvas, añadió etiquetas para estructurar la página: header, nav,section, article. Permitió que la página web almacenara datos en el navegador.
+
+- Markdown: Markdown no tiene versiones ya que desde que se introdujo ya contaba con todas las opciones básicabas que se querían cubrir,
+apesar de eso salieron extensiones para añadir más características al markdown, voy a decir algunas de ellas:
+    - GitHub Flavored Markdown: añade características como las listas, tablas y renderizado de código.
+    - Markdown extra: añade funcionalidades extras como tablas, definiciones, pie de páginas y otras características.
+    - Pandoc: permite convertir tu documento a otros formatos.
+
+- XML: xml solo ha tenido 2 versiones y el motivo es que desde los inicios xml se ajustaba a la necesidad por la que se creó y 
+solo tubieron que añadirle los retoques que faltaban a lo largo del tiempo. Sus versiones fueron:
+    - XML 1.1: Introdujo algunas mejoras y correcciones, también añadió caracteres especiales.
+
+# FALTA APARTIR DE AQUI, TENGO QUE INCLUIR LOS ESTANDARES DE CADA UNO DE LOS LENGUAJES
+Estandares:
+
 
 # PARTE NO HECHA
 
