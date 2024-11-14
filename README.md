@@ -30,6 +30,7 @@ Las principales características son que el lenguaje de marca permite una constr
 
 
 **Ventajas que proporcionan los lenguajes de marca en el tratamiento de la información:**
+
 Estructura:
 - Los lenguajes de marca ayudan a la creación de la estructura de la página web de forma organizada del contenido de la web.
 - Los lenguajes de marca al contener etiquetas que definen el tipo de contenido a tratar permiten una buena organización ya que podremos tratar cada contenido de una forma distinta permitiéndonos realizar páginas webs con los datos estructurados y definidos.
@@ -42,6 +43,7 @@ Mantenibilidad:
 - También es más fácil de mantener ya que como en el lenguaje de marca incluye identificadores para las etiquetas podemos implementar nuevas configuraciones en una parte del código sin perjudicar todo el resto del código.
 
 **Clasificar los lenguajes de marca:**
+
 Los principales lenguajes de marca son:
 1. HTML
 2. Markdown
@@ -66,6 +68,7 @@ Vamos a clasificar estos lenguajes de marca por:
 
 
 **Diferencia en el ámbito de aplicación**
+
 Ambitos de aplicación de los lenguajes:
 1. HTML: Se usa para el desarrollo web en concreto en la creación de la estructura y organización de la página web.
 2. Markdown: Se usa en documentos de documentación, aplicaciones y blogs. Un ejemplo de este sería todas las aplicaciones de redes sociales como por ejemplo whatsap.
@@ -73,6 +76,7 @@ Ambitos de aplicación de los lenguajes:
 4. JSON: Se usa como tipo de fichero para el intercambio de datos entre servidor y cliente, también es común encontrarlo en ficheros para almacenar datos en bases de datos como por ejemplo MongoDB.
 
 **La necesidad y los ámbitos específicos de aplicació de un lenguaje de marcas de propósito general**
+
 Un lenguaje de marca de propósito general significa que su uso o está limitado a solo un proposito o situación en concreta, sino que este lenguaje 
 estaría preparado para muchas situaciones diferentes por ejemplo un lenguaje que sea compatible para diseñar páginas webs y tambien poder usarlo
 como formateador de texto. Por lo que provocaría que aprendiendo un lenguaje de marca estarías aprendiendo multiples técnologías.
@@ -85,6 +89,7 @@ de bases de datos o aplicaciones y todas las páginas webs tendrían que estar h
 de programación no nos permitirían buen rendimiento en nuestra web ya que consumirían mas recursos y además serían mas complejos de hacer y de mantener.
 
 **Características propias de cada lenguaje**
+
 Para explicar estas carácteristicas voy a tomar como ejemplos los lenguajes: HTML, MARKDOWN, XML y JSON
 
 - Html tiene carácteristicas únicas como por ejemplo ser un estándar para crear estructuras y contenidos para páginas webs, 
@@ -103,6 +108,7 @@ y generar json además se puede complementar muy bien con APIs.
 
 
 **La estructura de un documento y sus reglas sintácticas**
+
 Para hablar de estas reglas voy a usar como referencia un documento html ya que cada lenguaje tiene
 sus propias reglas aunque seán parecidas, pero prefiero enforcarme solo en 1 para evitar confusiones.
 
@@ -114,6 +120,7 @@ Las reglas sintácticas vendrían a ser las reglas predefinidas del lenguaje com
 
 
 **La necesidad de crear documentos bien formados y la influencia en su procesamiento**
+
 Un documento que este bien formado permite al lector una mayor facilidad a la hora de entender el documento además que ofrece una mayor claridad también
 nos permitiría un mejor mantenimiento ya que al tener una buena estructura podríamos modificarlo y actualizarlo sin preocuparnos de que provoquemos un 
 desbalance del documento o malentendidos. 
@@ -127,6 +134,7 @@ y no sepamos el porque de nuestro error. Es tan importante la estructura que se 
 una buena estructura.
 
 **Las ventajas que aportan los espacios de nombres.**
+
 Los espacios de nombres nos aportan muchas ventajas a la hora de escribir código ya que gracias a los espacios de nombres
 tenemos una mejor organización y evitamos muchos conflictos ya que de esta forma un nombre en caso de repetirse puede haber un conflicto
 pero en caso de que metamos ese nombre dentro de otro como si fuera un atributo entonces no se va a repetir ya que al no ser un nombre global
@@ -138,6 +146,7 @@ Si nos referimos a p nos estaríamos refiriendo a las dos pero si nos referimos 
 De esta forma podríamos referirnos a una etiqueta de forma única sin probocar errores.
 
 **Clasificación de los lenguajes de marca relacionados con web y sus versiones y estándares**
+
 Los principales lenguajes de marca para su uso en la web son: html, markdown y xml
 
 Funcionalidad:
