@@ -1,140 +1,114 @@
-* {
+*{
   box-sizing: border-box;
   padding: 0;
   margin: 0;
   font-family: monospace;
-  color: #222222;
-  list-style: none;
-  box-sizing: border-box;
-}
-:root {
-  font-size: 16px;
-}
-body {
-  box-sizing: border-box;
-  height: 145vh;
-  position: relative;
-  background-color: grey;
-  font-family: Arial, Helvetica, sans-serif;
 }
 
-header {
+a{
+  text-decoration: none;
+}
+ul{
+  list-style: none;
+}
+main{
+  min-height: 80vh;
+}
+
+/*HEADER*/
+.cabecera{
   width: 100%;
-  position: fixed;
-  top: 0;
-  left: 0;
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 0 5%;
-  height: 100px;
-  background-color: black;
-}
+  padding: 1rem 2rem; /*el 1rem es para arriba y el 2rem es para la izqueirda*/
+  background: black;
 
-.logo {
+}
+.cabecera__logo{
   width: 6rem;
 }
-
-.menu {
+.cabecera__zona{
   display: flex;
+  flex-direction: column; /*INVERTIMOS EJE A COLUMNAS*/
+  align-items: end; /*PORQUE ESTOY EN COLUMNAS Y NECESITO ALINEARLOS*/
+  gap: 1rem; /*ESPACIADO PARA COLUMNAS DE FLEX*/
+}
+.formulario__input{
+  padding: 0.2rem;
+  border: solid yellow 0.1rem;
+}
+.formulario__input:focus{
+  border: solid yellow 0.1rem;
 }
 
-.cabecera-lenguajes {
-  text-decoration: none;
-  margin: 0 15px;
-  font-size: 18px;
-  font-weight: 600;
-  cursor: pointer;
-  color: white;
+.formulario__boton{
+  padding: 0.3rem 0.5rem;
+  border: solid purple 0.1rem;
+
+  color: mistyrose;
+  background: purple;
+  transition: all ease 0.5s; /*TRANSICION OSEA QUE CUANDO LO PONGA VAYA LENTITO MOLA*/
+  
+
 }
-.sesion {
-  text-decoration: none;
-  margin: 0 15px;
-  font-size: 18px;
-  font-weight: 600;
-  cursor: pointer;
-  color: white;
-  background-color: rgb(51, 177, 250);
-  border: solid 1.5rem rgb(51, 177, 250);
-  border-radius: 200px;
-}
-.sesion:hover {
-  border: solid 1.5rem rgb(204, 197, 70);
-  background-color: rgb(204, 197, 70);
-  color: rgb(0, 0, 255);
-}
-.cabecera-lenguajes:hover {
-  color: rgb(0, 0, 255);
-}
-#menu {
-  display: none;
+.formulario__boton:hover{
+  color: purple;
+  background: mistyrose;
+
 }
 
-img.menu-icono {
-  width: 50px;
+.cabecera__zona__menu{
   display: flex;
-  align-items: flex-end;
-  align-content: center;
-  padding-left: 10%;
+  gap: 1rem;
+
+  list-style: none;
+}
+.menu__enlace{
+  font-size: 1.2rem;
+
+  color: yellow;
+}
+.menu__enlace:hover{
+  border: solid mistyrose 0.5rem;
+  color: white(165, 74, 226);
+  background: purple;
+  transition: all ease 0.5s;
 }
 
-label {
-  cursor: pointer;
-  display: none;
+/* Estilos del pie de página */
+.pie {
+  background: black;
+  color: yellow;
+  text-align: center;
+  padding: 1.5rem 0;
+  font-size: 0.9rem;
 }
 
-img.cabecera-lenguajes {
-  padding: 10px 24px;
-  border-radius: 30px;
-  background-color: red;
-  color: white;
-  font-weight: 2rem;
-  cursor: pointer;
+.pie__enlace {
+  color: purple;
+  font-weight: bold;
 }
 
-/*
-ESTA PARTE ESTA MAL NECESITO PREGUNTARLE A ALEJANDRO
-*/
-@media (max-width: 990px) {
-  .menu {
-    display: none;
-    padding: 30px;
-    margin: 0;
-  }
-  .menu-sesion {
-    padding: 30px;
-    display: none;
-    margin: 0;
-    margin-top: 20%;
-  }
+.pie__enlace:hover {
+  color: mistyrose;
+}
 
-  label {
-    display: block;
-    cursor: pointer;
-  }
+.pie__redes {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+  list-style: none;
+  margin-top: 1rem;
+  padding: 0;
+}
 
-  .menu {
-    position: absolute;
-    top: 100%;
-    left: 0;
-    right: 0;
-    background-color: black;
-  }
+.redes__icono {
+  color: yellow;
+  font-weight: bold;
+  transition: color 0.3s ease;
+}
 
-  a.sesion {
-	display: block;
-    width: 50%;
-    text-align: center;
-  }
-  .cabecera-lenguajes {
-    margin: 0;
-    width: 50%;
-  }
-
-  #menu:checked ~ .menu {
-    display: block;
-  }
-  #menu:checked ~ .menu-sesion {
-    display: inline;
-  }
+.redes__icono:hover {
+  color: purple;
 }

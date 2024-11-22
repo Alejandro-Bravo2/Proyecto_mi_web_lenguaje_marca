@@ -180,6 +180,7 @@ solo tubieron que añadirle los retoques que faltaban a lo largo del tiempo. Sus
 
 # FALTA APARTIR DE AQUI, TENGO QUE INCLUIR LOS ESTANDARES DE CADA UNO DE LOS LENGUAJES
 Estandares:
+- HTML: 
 
 
 # PARTE NO HECHA

@@ -1,0 +1,186 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: monospace;
+}
+
+a{
+    text-decoration: none;
+}
+ul{
+    list-style: none;
+}
+main{
+    min-height: 80vh;
+}
+
+/*HEADER*/
+.cabecera{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 2rem; /*el 1rem es para arriba y el 2rem es para la izqueirda*/
+    background: mistyrose;
+
+}
+.cabecera__logo{
+    width: 6rem;
+}
+.cabecera__zona{
+    display: flex;
+    flex-direction: column; /*INVERTIMOS EJE A COLUMNAS*/
+    align-items: end; /*PORQUE ESTOY EN COLUMNAS Y NECESITO ALINEARLOS*/
+    gap: 1rem; /*ESPACIADO PARA COLUMNAS DE FLEX*/
+}
+.formulario__input{
+    padding: 0.2rem;
+    border: solid purple 0.1rem;
+}
+.formulario__input:focus{
+    border: solid yellow 0.1rem;
+}
+
+.formulario__boton{
+    padding: 0.3rem 0.5rem;
+    border: solid purple 0.1rem;
+
+    color: mistyrose;
+    background: purple;
+    transition: all ease 0.5s; /*TRANSICION OSEA QUE CUANDO LO PONGA VAYA LENTITO MOLA*/
+    
+
+}
+.formulario__boton:hover{
+    color: purple;
+    background: mistyrose;
+
+}
+
+.cabecera__zona__menu{
+    display: flex;
+    gap: 1rem;
+
+    list-style: none;
+}
+.menu__enlace{
+    font-size: 1.2rem;
+
+    color: purple;
+}
+
+
+/*
+MAIN
+*/
+
+.productos{
+    width: 100%;
+
+    display: flex;
+    flex-wrap: wrap; /*ESTO ES PARA QUE LOS HIJOS PUEDAN USAR SUS TAMAÑOS*/
+    justify-content:space-between;
+
+    padding: 1rem 4rem;
+}
+
+.productos__titulo{
+    width: 100%;
+    padding: 4rem;
+    text-align: center;
+    font-size: 4rem;
+    color: purple;
+}
+
+.productos__producto{
+    width: 30%;
+    position: relative; /*ESTO ES PARA QUE LOS HIJOS DE ESTA ETIQUETA SE POSICION EN FUNCIÓN AL TAMAÑO DE ESTE TAMAÑO*/
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 0.5rem;
+}
+.producto__imagen{
+    width: 100%;
+    height: 20rem;
+    object-fit: cover; /*ESTO ES PARA RECORTAR LA IMAGEN DE FORMA AUTOMATICA*/
+
+    border-radius: 2rem;
+}
+
+.producto__titulo{
+    font-size: 2rem;
+    color: purple;
+}
+
+.producto__enlace{
+    padding: 0.5rem 1rem;
+    border-radius: 0.7rem;
+    color: purple;
+    background: mistyrose;
+    display: inline-block; /*SE USA EL DISPLAY BLOCK PORQUE LOS ENLACES SON ELEMENTOS EN LINEA Y NO LES PUEDO DAR NI WIDH NI HEIGH*/
+    
+}
+
+.producto__megusta{
+    position: absolute;
+    top: 1rem;
+    right: 1rem;
+    font-size: 2rem;
+}
+.producto__megusta{
+    text-shadow: white 1px 1px 1px;
+    transition: all ease 0.5s;
+
+}
+.producto__enlace:hover{
+    border: solid mistyrose 0.1rem;
+    color: mistyrose;
+    background: purple;
+    transition: all ease 0.5s;
+    
+}
+.producto__megusta:hover{
+    color: purple;
+    transition: all ease 0.5s;
+}
+
+/*ESTA PARTE LA ESTOY HACIENDO YO*/
+.footer{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 2rem; /*el 1rem es para arriba y el 2rem es para la izqueirda*/
+    background: mistyrose;
+
+}
+.footer__navegacion{
+    display: flex;
+    gap: 1px;
+    flex-direction: row;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-between;
+
+    
+}
+
+@media (width <=1000px) {
+    .productos__producto{
+        flex-direction: column;
+    }
+    
+}
+@media (width <=800px) {
+    .productos{
+        gap: 2rem;
+    }
+    .productos__producto{
+        width: 100%;
+        flex-direction: row;
+
+    }
+    
+}
