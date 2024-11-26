@@ -146,6 +146,21 @@ body {
   background: white;
   color:blueviolet;
 }
+.imagenes__principal__lenguajes{
+  margin-top: 2rem;
+}
+.imagenes__logos{
+  width: 9rem;
+  display: inline-flex;
+  align-items: center;
+}
+
+.imagenes__logos__html{
+  width: 14rem;
+  display: inline-flex;
+  align-items: center;
+}
+
 
 /*Python*/
 
@@ -210,7 +225,34 @@ code {
   margin: 1rem 0;
 }
 
-  
+.aprendizaje__python:hover{
+  font-size: 1.4rem;
+  color: black;
+  font-family: Georgia;
+}
+/*HTML*/
+.caja__tipos__html{
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+
+  background: rgba(0, 0, 0, 0.7);
+  padding: 1rem;
+  margin: 1rem 0;
+  border-radius: 0.5rem;
+}
+.caja__tipos__html h3{
+   color: #6a11cb;
+}
+
+.tipos__html{
+  list-style:disc;
+  margin-left: 3rem;
+}
+.recursos{
+  color: #6a11cb;
+}
+
 
   /* FORMULARIOS */
 .contenedor-formularios {
