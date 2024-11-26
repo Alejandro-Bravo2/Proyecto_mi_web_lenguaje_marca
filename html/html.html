@@ -1,12 +1,11 @@
 <!DOCTYPE html>
-
 <html lang="es">
 
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>ALEJANDRO</title>
-  <link rel="stylesheet" href="../css/style.css" />
+  <title>Aprendiendo Python</title>
+  <link rel="stylesheet" href="../css/principal.css" />
 </head>
 
 <body>
@@ -17,8 +16,8 @@
     </a>
     <article class="cabecera__zona">
       <form class="cabecera__formulario">
-        <input class="formulario__input" type="text" />
-        <button class="formulario__boton" type="submit">buscar</button>
+        <input class="formulario__input" type="text" placeholder="Buscar contenido..." />
+        <button class="formulario__boton" type="submit">Buscar</button>
       </form>
       <nav>
         <ul class="cabecera__zona__menu">
@@ -28,14 +27,71 @@
           <li><a class="menu__enlace" href="html.html">HTML</a></li>
           <li><a class="menu__enlace" href="registro.html">Registro</a></li>
           <li><a class="menu__enlace" href="iniciosesion.html">Inicio Sesión</a></li>
-          
         </ul>
       </nav>
     </article>
   </header>
 
   <main class="contenido">
-    <!-- Aquí va tu contenido principal -->
+    <section class="python__inicio">
+      <h1 class="titulo__python">Aprendiendo Html</h1>
+      <h3 class="pregunta__python">¿Qué es Html?</h3>
+      <p>
+       HTML es el lenguaje estándar que se utiliza para estructurar y presentar el contenido en una página web. Es como el esqueleto de una página, definiendo la estructura de la página web . Al aprender HTML, estarás dando el primer paso para crear tus propias páginas web. 
+      </p>
+      <h3 class="pregunta__python">Características Principales:</h3>
+      <ul class="lista__python">
+        <li>Es un lenguaje interpretado: no se compila.</li>
+        <li>Es multiplataforma y compatible con varios sistemas operativos.</li>
+        <li>Soporta programación orientada a objetos, funcional y procedural.</li>
+        <li>Cuenta con una gran comunidad y abundante documentación.</li>
+      </ul>
+    </section>
+
+    <section class="python__variables">
+      <h3 class="titulo__variables__python">Variables en Python</h3>
+      <p>En Python, las variables se definen de manera dinámica. Ejemplo:</p>
+      <code>nombre = "Alejandro" # Esto es un string</code>
+      <br>
+      <code>edad = 25 # Esto es un entero</code>
+      <br>
+      <code>altura = 1.75 # Esto es un flotante</code>
+      <br>
+      <code>es_estudiante = True # Esto es un booleano</code>
+      <br>
+      <h3 class="titulo__variables__python">Conversión de tipos:</h3>
+      <p>Podemos convertir variables de un tipo a otro utilizando funciones como <code>int() # Esto convertiria a tipo entero</code><br> <code>str() # Esto convertiria a tipo cadena</code><br> <code>float() #Esto convertiria a tipo flotante</code></p>
+      <p>Ejemplo:</p>
+      <code>altura = 1.90</code>
+
+      <code>altura_int = int(altura)</code>
+      <p>Si ahora nosotros le hacemos un print a altura:<code>print(altura_int)</code>Nos devolvería 1</p>
+      <br>
+    </section>
+
+    <section class="python__ejercicios">
+      <h3 >Ejercicios Prácticos</h3>
+      <p>Prueba resolver los siguientes ejercicios para afianzar tus conocimientos:</p>
+      <ol>
+        <li>Crea una variable llamada <code>saludo</code> que contenga la frase "¡Hola Mundo!" y muéstrala por pantalla.</li>
+        <br>
+        <li>Declara una lista con tus 3 colores favoritos y accede al segundo color.</li>
+        <br>
+        <li>Escribe un programa que calcule el área de un triángulo dada su base y altura.</li>
+        <br>
+      </ol>
+      <p>Soluciones sugeridas al final del documento.</p>
+    </section>
+
+    <section class="python__recursos">
+      <h3>Recursos Adicionales</h3>
+      <p>Consulta estos recursos para aprender más sobre Python:</p>
+      <ul>
+        <li><a class="aprendizaje__python" href="https://docs.python.org/es/">Documentación Oficial de Python</a></li>
+        <li><a class="aprendizaje__pyhton" href="https://www.w3schools.com/python/">W3Schools: Tutorial de Python</a></li>
+        <li><a class="aprendizaje__python" href="https://www.codecademy.com/">Codecademy</a></li>
+      </ul>
+    </section>
   </main>
 
   <footer class="pie">
@@ -54,5 +110,5 @@
   </footer>
 
 </body>
-
 </html>
+

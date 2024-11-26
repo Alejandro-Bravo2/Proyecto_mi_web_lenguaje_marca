@@ -1,0 +1,387 @@
+/* Reset general */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+}
+li{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+
+:root{
+  background: linear-gradient(45deg, #6a11cb, #2575fc); /*FONDO*/
+}
+
+body {
+  display: flex; /*Para trabajar con las cajas*/
+  flex-direction: column;
+  min-height: 100vh; /*view heigh para que si o si ocupe toda la pantalla*/
+  color: #fff;
+  background: var(--background-color); /*FONDO*/
+}
+
+/* HEADER */
+.cabecera {
+  width: 100%;
+  display: flex; /*Creamos caja para juntar todo*/
+  justify-content: space-between; /*Ponemos separacion entre logo y formulario*/
+  align-items: center; /*Los alineamos para que queden centrados dentro de la caja*/
+  padding: 1rem 2rem; /*Borde de arriba y abajo de 16 px y borde de derecha y izquierda 32px*/
+  background: black;
+}
+
+.cabecera__logo {
+  width: 6rem; /*Tamaño logo*/
+}
+
+.cabecera__zona {
+  display: flex; /*Para agrupar todos los elementos del formulario dentro de una sola caja*/
+  flex-direction: column; /*Para que se dividan las partes en columnas y no estén en una sola linea*/
+  align-items: flex-end; /*Lo llevamos al final de la caja*/
+  gap: 1rem; /*Espaciado dentro de los items de la caja*/
+}
+
+.formulario__input {
+  padding: 0.5rem;
+  border: 2px solid yellow;
+  border-radius: 5px;
+  font-size: 1rem;
+  background: #222;
+  color: #fff;
+}
+.formulario__boton {
+  padding: 0.5rem 1rem;
+  border: none;
+  background: purple;
+  color: mistyrose;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+.formulario__boton:hover {
+  background: mistyrose;
+  color: purple;
+}
+
+.cabecera__zona__menu {
+  display: flex;
+  gap: 1rem;
+}
+
+.menu__enlace {
+  font-size: 1rem;
+  color: yellow;
+  text-decoration: none;
+}
+
+.menu__enlace:hover {
+  color: purple;
+}
+.formulario__input{
+  padding: 0.2rem;
+  border: solid yellow 0.1rem;
+}
+.formulario__input:focus{
+  border: solid yellow 0.1rem;
+}
+
+.formulario__boton{
+  padding: 0.3rem 0.5rem;
+  border: solid purple 0.1rem;
+
+  color: mistyrose;
+  background: purple;
+  transition: all ease 0.5s; /*TRANSICION OSEA QUE CUANDO LO PONGA VAYA LENTITO MOLA*/
+  
+
+}
+.formulario__boton:hover{
+  color: purple;
+  background: mistyrose;
+
+}
+
+/*Página Principal*/
+.contenido__inicio{
+  text-align: center;
+}
+.titulo__inicio{
+  padding-top: 10%;
+  color:navy;
+  font-size: 5rem;
+  font-family:Verdana;
+}
+
+.contenido_titulo_inicio{
+  color:yellow;
+}
+
+.buscador__inicio{
+  padding: 0.6rem;
+  border: solid yellow 0.1rem;
+  background: black;
+  color:lightcoral;
+  border-radius: 15rem;
+  font-size: 1.5rem;
+  width: 30rem;
+  text-align: center;
+}
+.boton_buscador_inicio{
+  padding: 0.3rem 0.5rem;
+  border: solid purple 0.1rem;
+
+  color: white;
+  background:purple;
+  transform: all ease 0.5s;
+  font-size: 2rem;
+  border-radius: 15rem;
+  transition: all ease 0.5s;
+}
+.boton_buscador_inicio:hover{
+  background: white;
+  color:blueviolet;
+}
+
+/*Python*/
+
+.contenido{
+  padding: 4rem;
+}
+.titulo__python{
+  font-size: 2.3rem;
+  text-align: center;
+}
+.pregunta__python{
+  font-size: 1.5rem;
+  color: black;
+  margin-top: 2rem;
+}
+
+.lista__python li{
+  list-style:square;
+  margin-left: 4rem;
+}
+.titulo__variables__python{
+  color: black;
+  font-size: 1.5rem;
+  
+}
+.python__variables{
+  margin-top: 2rem;
+
+}
+.python__ejercicios {
+  background: rgba(0, 0, 0, 0.7);
+  padding: 1rem;
+  margin: 1rem 0;
+  border-radius: 0.5rem;
+}
+
+.python__ejercicios h3, .python__recursos h3 {
+  color: #6a11cb;
+}
+
+.python__recursos ul {
+  padding: 1rem;
+  list-style-type: square;
+}
+
+.python__recursos a {
+  color: #2575fc;
+}
+
+.python__recursos a:hover {
+  color:black;
+  font-size: 1.1rem;
+  text-decoration: underline;
+}
+
+code {
+  display: block;
+  padding: 1rem;
+  background: #222;
+  color: #6a11cb;
+  border-radius: 5px;
+  margin: 1rem 0;
+}
+
+  
+
+  /* FORMULARIOS */
+.contenedor-formularios {
+  width: 100%;
+  max-width: 25rem;
+  margin: 2rem auto;
+  padding: 2rem;
+  background: rgba(0, 0, 0, 0.8);
+  border-radius: 0.6rem;
+}
+
+#Formulario__Login {
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.formulario--activo {
+  display: flex;
+}
+
+.titulo__iniciosesion {
+  text-align: center;
+  margin-bottom: 1.5rem; /*MARGEN HACIA ABAJO*/
+  color: #fff;
+}
+
+
+
+.entrada__sesion {
+  padding: 0.8rem;
+  border: 2px solid #fff;
+  border-radius: 5px;
+  outline: none;
+  font-size: 1rem;
+  background: #222;
+  color: #fff;
+}
+
+.entrada__sesion:focus {
+  border-color: #6a11cb;
+}
+
+.boton__sesion {
+  padding: 0.8rem;
+  border: none;
+  border-radius: 5px;
+  background: #6a11cb;
+  color: #fff;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+.boton__sesion:hover {
+  background: #2575fc;
+}
+
+.pregunta_sesion {
+  text-align: center; /*CENTRAR NO TIENES CUENTA*/
+}
+
+.alternar__sesion {
+  color: #2575fc;
+  text-decoration: none;
+}
+
+.alternar__sesion:hover {
+  text-decoration: underline; /*LO DEL SUBRAYADO*/
+  color: #6a11cb;
+}
+
+/* FOOTER */
+.pie {
+  margin-top: auto;
+  background: black;
+  text-align: center;
+  padding: 1rem;
+  color: #fff;
+}
+
+.pie__enlace {
+  color: purple;
+}
+
+.pie__enlace:hover {
+  color: yellow;
+}
+
+.pie__redes {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+  list-style: none;
+  padding: 0;
+  margin: 1rem 0;
+}
+
+.redes__icono {
+  color: yellow;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.redes__icono:hover {
+  color: purple;
+}
+
+
+
+
+
+
+/* General styles */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background: linear-gradient(to bottom, #4a00e0, #8e2de2);
+  color: #fff;
+}
+
+.main {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+/* Hero section */
+.hero {
+  text-align: center;
+  padding: 50px 20px;
+}
+
+.hero__title {
+  font-size: 3rem;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.hero__subtitle {
+  font-size: 1.2rem;
+  margin-bottom: 20px;
+}
+
+.hero__search {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+}
+
+.search__input {
+  padding: 10px;
+  font-size: 1rem;
+  border: none;
+  border-radius: 5px;
+  width: 300px;
+}
+
+.search__button {
+  padding: 10px 20px;
+  font-size: 1rem;
+  background-color: #6a00e0;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.search__button:hover {
+  background-color: #4a00e0;
+}
+
+
