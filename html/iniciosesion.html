@@ -18,7 +18,11 @@
       </a>
       <article class="cabecera__zona">
         <form class="cabecera__formulario">
-          <input class="formulario__input" type="text" />
+          <input
+            class="formulario__input"
+            type="text"
+            placeholder="Buscar contenido..."
+          />
           <button class="formulario__boton" type="submit">buscar</button>
         </form>
         <nav>
@@ -35,6 +39,33 @@
         </nav>
       </article>
     </header>
+    <header class="cabecera__movil">
+      <a href="main.html">
+        <img
+          class="cabecera__logo__movil"
+          src="../assets/logo.png"
+          alt="LOGO TIENDA"
+        />
+      </a>
+      <input type="checkbox" id="menu" class="menu__entrada__cabecera__movil" />
+      <label for="menu" class="menu__cabecera__movil">☰</label>
+      <nav class="cabecera__zona__movil">
+        <ul class="cabecera__zona__menu__movil">
+          <li><a class="menu__enlace__movil" href="main.html">Inicio</a></li>
+          <li><a class="menu__enlace__movil" href="python.html">Python</a></li>
+          <li><a class="menu__enlace__movil" href="css.html">CSS</a></li>
+          <li><a class="menu__enlace__movil" href="html.html">HTML</a></li>
+          <li>
+            <a class="menu__enlace__movil" href="registro.html">Registro</a>
+          </li>
+          <li>
+            <a class="menu__enlace__movil" href="iniciosesion.html"
+              >Inicio Sesión</a
+            >
+          </li>
+        </ul>
+      </nav>
+    </header>
     <section class="contenedor-formularios">
       <!-- Formulario de Inicio de Sesión -->
       <form id="Formulario__Login" class="formulario formulario--activo">
@@ -42,9 +73,21 @@
           <h2 class="titulo__iniciosesion">Iniciar Sesión</h2>
         </header>
         <label for="Correo">Correo Electrónico</label>
-        <input class="entrada__sesion" id="Correo" type="email" placeholder="Correo electrónico" required/>
+        <input
+          class="entrada__sesion"
+          id="Correo"
+          type="email"
+          placeholder="Correo electrónico"
+          required
+        />
         <label for="password">Contraseña</label>
-        <input class="entrada__sesion" id="password" type="password" placeholder="Contraseña" required />
+        <input
+          class="entrada__sesion"
+          id="password"
+          type="password"
+          placeholder="Contraseña"
+          required
+        />
         <button type="submit" class="boton__sesion">Entrar</button>
         <footer>
           <p class="pregunta_sesion">
@@ -58,7 +101,7 @@
       <p>&copy; 2024 Alejandro - Todos los derechos reservados</p>
       <p>
         <a href="politica.html" class="pie__enlace">Política de privacidad</a> |
-        <a href="terminos.html" class="pie__enlace">Términos y condiciones</a>
+        <a href="contacto.html" class="pie__enlace">Contacto</a>
       </p>
       <nav>
         <ul class="pie__redes">

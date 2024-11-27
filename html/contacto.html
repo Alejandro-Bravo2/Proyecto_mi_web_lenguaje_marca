@@ -1,14 +1,14 @@
-<!DOCTYPE html>
-
-<html lang="es">
+<!DOCTYPE html> <!-- Declara el tipo de documento como HTML5 -->
+<html lang="es"> <!-- Indica que el idioma del contenido es español -->
   <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Política de Derechos</title>
-    <link rel="stylesheet" href="../css/principal.css" />
+    <meta charset="UTF-8" /> <!-- Especifica el conjunto de caracteres como UTF-8 -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" /> <!-- Hace que la página sea responsiva en dispositivos móviles -->
+    <title>Contacto</title> <!-- Título de la página -->
+    <link rel="stylesheet" href="../css/principal.css" /> <!-- Enlaza la hoja de estilos CSS -->
   </head>
 
   <body>
+    <!-- Cabecera del sitio web -->
     <header class="cabecera">
       <a href="main.html">
         <img
@@ -40,6 +40,8 @@
         </nav>
       </article>
     </header>
+
+    <!-- Cabecera para dispositivos móviles -->
     <header class="cabecera__movil">
       <a href="main.html">
         <img
@@ -68,39 +70,55 @@
       </nav>
     </header>
 
+    <!-- Contenido principal de la página -->
     <main class="contenido">
-      <h1 class="titulo__python">Política de Derechos</h1>
+      <h1 class="titulo__python">Quiénes Somos</h1> <!-- Título de sección -->
       <section class="caja__tipos__html">
-        <h3 class="subtitulo__politica">Introducción</h3>
+        <h3 class="pregunta__python">
+          Somos una empresa que se dedica al aprendizaje de Python, HTML y CSS
+        </h3>
         <p>
-          Esta política de derechos describe cómo manejamos y protegemos los
-          derechos de autor y otros derechos de propiedad intelectual en nuestro
-          sitio web.
+          Nuestro objetivo es realizar este aprendizaje de forma interactiva con
+          el usuario, permitiendo que vaya aprendiendo mientras ve en tiempo real
+          lo que realiza.
         </p>
-        <h3 class="subtitulo__politica">Derechos de Autor</h3>
+      </section>
+
+      <h1 class="titulo__contacto">Contáctanos</h1> <!-- Título de sección -->
+      <section class="caja__tipos__html">
+        <h3 class="pregunta__python">¿Cómo puedes contactarnos?</h3>
         <p>
-          Todo el contenido publicado en este sitio web, incluyendo textos,
-          imágenes, y otros materiales, está protegido por derechos de autor y
-          es propiedad de Alejandro, a menos que se indique lo contrario.
+          Si tienes alguna pregunta, comentario o sugerencia, no dudes en
+          ponerte en contacto con nosotros a través del siguiente formulario.
+          Estaremos encantados de ayudarte.
         </p>
-        <h3 class="subtitulo__politica">Uso del Contenido</h3>
         <p>
-          No se permite la reproducción, distribución o modificación del
-          contenido de este sitio web sin el permiso expreso del propietario.
+          Para contactarnos puedes escribirnos al correo: abracal@g.educaand.es
+          o vía telefónica al 99999999999.
         </p>
-        <h3 class="subtitulo__politica">Contacto</h3>
-        <p>
-          Si tienes alguna pregunta sobre esta política de derechos, por favor
-          contáctanos a través de nuestro formulario de contacto.
-        </p>
+      </section>
+
+      <h1 class="titulo__contacto">Encuéntranos</h1> <!-- Título de sección -->
+      <section class="caja__tipos__html">
+        <h3 class="pregunta__python">Nos ubicamos aquí:</h3>
+        <iframe
+          src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d200.41953212493158!2d-6.274881117879424!3d36.51280119808306!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1ses!2ses!4v1732732242845!5m2!1ses!2ses"
+          width="600" <!-- Ancho del mapa -->
+          height="450" <!-- Altura del mapa -->
+          style="border: 0" <!-- Sin borde -->
+          allowfullscreen="" <!-- Permitir pantalla completa -->
+          loading="lazy" <!-- Carga diferida para mejorar rendimiento -->
+          referrerpolicy="no-referrer-when-downgrade" <!-- Política de referidor -->
+        ></iframe> <!-- Mapa de Google Maps -->
       </section>
     </main>
 
+    <!-- Pie de página -->
     <footer class="pie">
       <p>&copy; 2024 Alejandro - Todos los derechos reservados</p>
       <p>
         <a href="politica.html" class="pie__enlace">Política de privacidad</a> |
-        <a href="contacto.html" class="pie__enlace">Contacto</a>
+        <a href="terminos.html" class="pie__enlace">Términos y condiciones</a>
       </p>
       <nav>
         <ul class="pie__redes">

@@ -7,11 +7,27 @@
 
 **Requisitos funcionales:**
 
-Debe de tener un inicio de sesión
-Debe tener menú en la cabecera con los enlaces a cada página
+El principal requesito es que nuestra web debe tener una cabecera y pie de página.
+En la cabecera incorporará enlaces a las distintas páginas permitiendo que el usuario pueda navegar entre páginas comodamente.
+Debe de tener un inicio de sesión y registro.
 Debe tener un pie de página que informe sobre redes sociales y licencia
-El logo debe mandarte al logo.
+El logo de la cabecera debe mandarte a la página principal.
 El cuerpo de la página debe estar dividido en: contenido y la definición de ese contenido.
+
+**Producto**
+Los objetivos de la página web es ayudar a aprender a programar html y css y python de esta forma estaríamos enseñando a los usuarios un aprendizaje
+enfocado en páginas webs y con python estarían aprendiendo uno de los lenguajes mas usados hoy en día además de que como es multiparadigma podríamos enseñarle
+todas las tipos de lenguaje. 
+La información que va a contener va a estar dividida en partes estas partes serán distinta dependiendo de si es html, css o python. Pero la estructura es similar para todos
+la estructura será dividir el documento por partes y cada parte enfocada a una cosa en concreto para realizar un aprendizaje paso a paso. Por ejemplo en python
+realizaremos un apartado para variables permitiendo que los usuarios puedan manejar las distintas variables y el traspaso entre tipos. Luego de estos apartados irán mas apartados
+de información. Al final de la página se encontrarán varios ejercicios variando el nivel de este ejercicio de nivel fácil a avanzado.
+Me gustaría añadir una parte para que los usuarios puedan probar su código con una api que llamase a python3 o html y css pero esa parte la haremos más adelante.
+
+**Estructura**
+La estructura de la página web se divide en partes como ya he dicho anteriormente, estas partes estarán dividas por section para dividir los elementos en contenedores 
+para organizar el contenido. He usado etiquetas que no tendrán conflictos con ningún navegador y sin el uso de div.
+He usado las etiquetas de titulos, parrafos, listas, cabecera, pie de página, agrupación de contenido, botones, imagenes y saltos de línea.
 
 **Requisitos no funcionales:**
 
@@ -21,12 +37,18 @@ Compatibilidad: He usado un diseño para que la página web pueda ser vista desd
 
 **Tecnologías usadas:**
 
-Justificación: Para la justificación he usado prettier para la justificación del código de forma correcta.
-Documentación: La documentación se ha usado para explicar las partes más importantes del código o las que podría llegar a ocasionar confusión a los programadores. La he usado ya que la documentación proporciona una gran ayuda a todas las personas que vayan a revisarla o a mantener la página web, ya que si no documentamos nuestro código sería mucho más complejo de mantener para cualquier usuario que vaya a leer el código de la página web.
+Justificación: Para la justificación he usado prettier que es una extensión que te formatea el código además de que te muestra si hay algún error en el código.
+Documentación: La documentación se ha usado para explicar las partes más importantes del código o las que podría llegar a ocasionar confusión a los programadores. 
+La he usado ya que la documentación proporciona una gran ayuda a todas las personas que vayan a revisarla o a mantener la página web, ya que si no documentamos nuestro código sería mucho más complejo de mantener para cualquier usuario que vaya a leer el código de la página web.
 
 **Características generales del lenguaje de marca:**
 
-Las principales características son que el lenguaje de marca permite una construcción de una página web de forma sencilla ya que el lenguaje contiene etiquetas para definir el contenido y estructurarlo de forma sencilla y eficaz. El lenguaje de marca es muy usado en el diseño de páginas web ya que es fácil usarlo además de que podemos usar css y javascript para la personalización del lenguaje de marca provocando que podamos hacer la estructura de la página web con html y personalizando el diseño con otros lenguajes de forma que tenemos la página web muy completa y sin usar un solo lenguaje para hacer la página web lo que provocaría una mayor dificultad ya que habría características que posiblemente ese lenguaje no incluya y también será más difícil de realizar y mantener en un futuro.
+Las principales características son que el lenguaje de marca permite una construcción de una página web de forma sencilla ya que el lenguaje consiste en etiquetas para definir el contenido y estructurarlo de forma sencilla y eficaz.
+El lenguaje de marca es muy usado en el diseño de páginas web ya que es fácil usarlo además de que podemos usar css y javascript para la personalización del lenguaje
+de marca provocando que podamos hacer la estructura de la página web con html y personalizando el diseño con otros lenguajes de forma que tenemos la página web
+muy completa y sin usar un solo lenguaje para hacer la página web lo que provocaría una mayor dificultad ya que habría características que posiblemente ese lenguaje 
+no incluya y también será más difícil de realizar y mantener en un futuro.
+
 
 
 **Ventajas que proporcionan los lenguajes de marca en el tratamiento de la información:**
@@ -115,8 +137,8 @@ sus propias reglas aunque seán parecidas, pero prefiero enforcarme solo en 1 pa
 La estructura de un documento está dividida en 3 partes, estas partes son: cabecera (header), cuerpo del documento(body) y pie de página(fotter).
 En la cabecera pondremos información general sobre el documento o información necesaria, en el cuerpo del documento
 escribiremos la información y en el pie de página escribiremos información relacionada con el cuerpo del documento.
-Las reglas sintácticas vendrían a ser las reglas predefinidas del lenguaje como por ejemplo el cierre de las etiquetas, la jerarquía de las etiquetas
-. Aunque esto no es una regla predefinida en el lenguaje sigue siendo una regla que debemos seguir: Documentar el código en las partes confusas y partes importantes.
+Las reglas sintácticas vendrían a ser las reglas predefinidas del lenguaje como por ejemplo el cierre de las etiquetas, la jerarquía de las etiquetas.
+ Aunque esto no es una regla predefinida en el lenguaje sigue siendo una regla que debemos seguir: Documentar el código en las partes confusas y partes importantes.
 
 
 **La necesidad de crear documentos bien formados y la influencia en su procesamiento**
@@ -178,9 +200,35 @@ apesar de eso salieron extensiones para añadir más características al markdow
 solo tubieron que añadirle los retoques que faltaban a lo largo del tiempo. Sus versiones fueron:
     - XML 1.1: Introdujo algunas mejoras y correcciones, también añadió caracteres especiales.
 
-# FALTA APARTIR DE AQUI, TENGO QUE INCLUIR LOS ESTANDARES DE CADA UNO DE LOS LENGUAJES
 Estandares:
-- HTML: 
+- HTML: Su estandar actual es html5 que incluye soporte nativo para multimedia como videos y audios y muchas mas etiquetas.
+- Markdown: CommonMark es el estandar actual de markdown que se utiliza en los blogs, documentación y sistemas de control de versiones. Lo que proporciona es una definición detallada y extensible.
+- XML: El principal estandar es W3C y lo que permite es unas reglas bien definidas.
+
+
+**Las funcionalidades principales etiquetas y los atributos del lenguaje HTML**
+La funcionalidades principales de las etiquetas son las etiquetas de estructuras como podría ser la de head, title, body.
+Luego tendríamos las etiquetsa semánticas como serían las de header,main,footer.
+Las etiquetas de agrupación de contenido: article ,section y nav.
+Las etiquetas del contenido que serían las de los titulos h1,h2.., la etiqueta de lso parrafos p, la de los enlaces a y imagenes img. 
+También tendríamos la etiqueta de los diseño como por ejemplo table y form. Estas servirían para hacer tablas o formularios.
+También tendríamos las etiquetas clave o identificación que serían id,class y style. Estas etiquetas sirven para identificar de forma única a cada etiqueta.
+Y por último tendríamos la etiqueta de entrada de datos que sería input, esta nos serviría para la entrada de datos con el usuairo.
+
+
+**Semejanza y diferencias entre las diferentes versiones de html**
+La principal semejanza entre las versiones es que todas las versiones comparten el mismo proposito y la misma estructura en el lenguaje. 
+La diferencia entre las versiones de html son únicamente la implementación de nuevas etiquetas y características nuevas. Como por ejemplo en
+html 2.0 que implementarón soporte para formularios y scripts. No voy a explicar las diferencias entre versiones ya que antes en otra pregunta
+he escrito las características de todas las versiones y resumidas.
+
+
+**Ventajas que aporta la utilización de hojas de estilos**
+Las ventajas que aportan son bastantes claras, sin las hojas de estilos tendríamos páginas webs totalmente básicas y feas. Con las hojas de estilos
+además de darle estilos a nuestras etiquetas podemos organizar nuestro contenido pudiendo crear cabeceras, menus en hamburguesa y otras características 
+que hacen que los usuarios tengan una experiencia comoda y satisfactoria en nuestra web.
+
+
 
 
 # PARTE NO HECHA

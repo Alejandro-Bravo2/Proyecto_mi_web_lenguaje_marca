@@ -1,58 +1,217 @@
-<!DOCTYPE html>
+<!DOCTYPE html> <!-- Declara el tipo de documento como HTML5 -->
+<html lang="es"> <!-- Indica que el idioma del contenido es español -->
+  <head>
+    <meta charset="UTF-8" /> <!-- Especifica el conjunto de caracteres como UTF-8 -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" /> <!-- Hace que la página sea responsiva en dispositivos móviles -->
+    <title>Aprendiendo CSS</title> <!-- Título de la página -->
+    <link rel="stylesheet" href="../css/principal.css" /> <!-- Enlaza la hoja de estilos CSS -->
+  </head>
 
-<html lang="es">
+  <body>
+    <!-- Cabecera del sitio web -->
+    <header class="cabecera">
+      <a href="main.html">
+        <img
+          class="cabecera__logo"
+          src="../assets/logo.png"
+          alt="LOGO TIENDA"
+        />
+      </a>
+      <article class="cabecera__zona">
+        <form class="cabecera__formulario">
+          <input
+            class="formulario__input"
+            type="text"
+            placeholder="Buscar contenido..."
+          />
+          <button class="formulario__boton" type="submit">Buscar</button>
+        </form>
+        <nav>
+          <ul class="cabecera__zona__menu">
+            <li><a class="menu__enlace" href="main.html">Inicio</a></li>
+            <li><a class="menu__enlace" href="python.html">Python</a></li>
+            <li><a class="menu__enlace" href="css.html">CSS</a></li>
+            <li><a class="menu__enlace" href="html.html">HTML</a></li>
+            <li><a class="menu__enlace" href="registro.html">Registro</a></li>
+            <li>
+              <a class="menu__enlace" href="iniciosesion.html">Inicio Sesión</a>
+            </li>
+          </ul>
+        </nav>
+      </article>
+    </header>
 
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>ALEJANDRO</title>
-  <link rel="stylesheet" href="../css/style.css" />
-</head>
-
-<body>
-
-  <header class="cabecera">
-    <a href="main.html">
-      <img class="cabecera__logo" src="../assets/logo.png" alt="LOGO TIENDA" />
-    </a>
-    <article class="cabecera__zona">
-      <form class="cabecera__formulario">
-        <input class="formulario__input" type="text" />
-        <button class="formulario__boton" type="submit">buscar</button>
-      </form>
-      <nav>
-        <ul class="cabecera__zona__menu">
-          <li><a class="menu__enlace" href="main.html">Inicio</a></li>
-          <li><a class="menu__enlace" href="python.html">Python</a></li>
-          <li><a class="menu__enlace" href="css.html">CSS</a></li>
-          <li><a class="menu__enlace" href="html.html">HTML</a></li>
-          <li><a class="menu__enlace" href="registro.html">Registro</a></li>
-          <li><a class="menu__enlace" href="iniciosesion.html">Inicio Sesión</a></li>
-          
+    <!-- Cabecera para dispositivos móviles -->
+    <header class="cabecera__movil">
+      <a href="main.html">
+        <img
+          class="cabecera__logo__movil"
+          src="../assets/logo.png"
+          alt="LOGO TIENDA"
+        />
+      </a>
+      <input type="checkbox" id="menu" class="menu__entrada__cabecera__movil" />
+      <label for="menu" class="menu__cabecera__movil">☰</label>
+      <nav class="cabecera__zona__movil">
+        <ul class="cabecera__zona__menu__movil">
+          <li><a class="menu__enlace__movil" href="main.html">Inicio</a></li>
+          <li><a class="menu__enlace__movil" href="python.html">Python</a></li>
+          <li><a class="menu__enlace__movil" href="css.html">CSS</a></li>
+          <li><a class="menu__enlace__movil" href="html.html">HTML</a></li>
+          <li>
+            <a class="menu__enlace__movil" href="registro.html">Registro</a>
+          </li>
+          <li>
+            <a class="menu__enlace__movil" href="iniciosesion.html"
+              >Inicio Sesión</a
+            >
+          </li>
         </ul>
       </nav>
-    </article>
-  </header>
+    </header>
 
-  <main class="contenido">
-    <!-- Aquí va tu contenido principal -->
-  </main>
+    <!-- Contenido principal de la página -->
+    <main class="contenido">
+      <h1 class="titulo__python">Aprendiendo CSS</h1> <!-- Título principal -->
 
-  <footer class="pie">
-    <p>&copy; 2024 Alejandro - Todos los derechos reservados</p>
-    <p>
-      <a href="politica.html" class="pie__enlace">Política de privacidad</a> | 
-      <a href="terminos.html" class="pie__enlace">Términos y condiciones</a>
-    </p>
-    <nav>
-      <ul class="pie__redes">
-        <li><a href="https://www.instagram.com/" class="redes__icono">Instagram</a></li>
-        <li><a href="https://x.com/" class="redes__icono">Twitter</a></li>
-        <li><a href="https://www.facebook.com/" class="redes__icono">Facebook</a></li>
-      </ul>
-    </nav>
-  </footer>
+      <!-- Sección que explica qué es CSS -->
+      <section class="caja__tipos__html">
+        <h3 class="pregunta__python">¿Qué es CSS?</h3> <!-- Subtítulo -->
+        <p>
+          CSS es un lenguaje utilizado para describir el estilo y formato de un
+          documento HTML. Permite agregar color, diseño y estructura a las
+          páginas web.
+        </p>
+        <h3 class="pregunta__python">Características Principales:</h3> <!-- Subtítulo -->
+        <ul class="lista__python">
+          <li>Separa el contenido de la presentación.</li>
+          <li>Controla el diseño de forma centralizada.</li>
+          <li>Crea experiencias interactivas.</li>
+        </ul>
+      </section>
 
-</body>
+      <!-- Sección que explica cómo usar CSS -->
+      <section class="caja__tipos__html">
+        <h3 class="titulo__variables__python">Cómo usar CSS</h3> <!-- Subtítulo -->
+        <p>
+          En CSS tenemos que definir primero a qué elemento queremos hacer
+          referencia; esto lo haremos usando la etiqueta HTML, la clase o el id.
+        </p>
+        <p>
+          En CSS, los elementos tienen especificidad. Esto significa que algunas
+          reglas tienen mayor prioridad que otras. Es importante entender esto
+          para saber qué estilos se aplicarán a qué elementos.
+        </p>
+        <br />
+        <p>Para aplicar estilos a un elemento:</p>
+        <code>.h1 { /* Aquí le daremos sus atributos y luego cerramos con } */ }</code>
+        <br />
 
+        <ul class="caja__tipos__html">
+          <h3>Tipos de datos y propiedades de CSS:</h3>
+          <li class="tipos__html">
+            <b>color:</b> Define el color del texto. Ejemplo: <code>color: red;</code>
+          </li>
+          <li class="tipos__html">
+            <b>background:</b> Establece el color o la imagen de fondo. Ejemplo: <code>background: linear-gradient(blue, white);</code>
+          </li>
+          <li class="tipos__html">
+            <b>font:</b> Agrupa atributos relacionados con las fuentes. Ejemplo: <code>font: italic bold 16px Arial;</code>
+          </li>
+          <li class="tipos__html">
+            <b>align-items:</b> Alinea los elementos dentro de un contenedor flexbox. Ejemplo: <code>align-items: center;</code>
+          </li>
+          <li class="tipos__html">
+            <b>padding:</b> Establece los márgenes internos de un elemento. Ejemplo: <code>padding: 10px;</code>
+          </li>
+          <li class="tipos__html">
+            <b>margin:</b> Controla los márgenes externos entre elementos. Ejemplo: <code>margin: 20px auto;</code>
+          </li>
+          <li class="tipos__html">
+            <b>display:</b> Define el comportamiento del contenedor. Ejemplo: <code>display: flex;</code>
+          </li>
+          <li class="tipos__html">
+            <b>width:</b> Especifica el ancho del elemento. Ejemplo: <code>width: 50%;</code>
+          </li>
+          <li class="tipos__html">
+            <b>height:</b> Establece la altura del elemento. Ejemplo: <code>height: 200px;</code>
+          </li>
+          <li class="tipos__html">
+            <b>border:</b> Define el borde del elemento. Ejemplo: <code>border: 2px solid black;</code>
+          </li>
+        </ul>
+      </section>
+
+      <!-- Sección de ejercicios prácticos -->
+      <section class="python__ejercicios">
+        <h3>Ejercicios Prácticos</h3>
+        <p>
+          Prueba resolver los siguientes ejercicios para afianzar tus
+          conocimientos:
+        </p>
+        <ol>
+          <li>
+            Dale formato a un enlace para que parezca un botón. Haz que, cuando pases el cursor por encima, cambie de color y el texto sea más grande.
+          </li>
+          <br />
+          <li>
+            Declara una lista con tus 3 colores favoritos y asigna a cada uno un color diferente usando CSS.
+          </li>
+          <br />
+          <li>
+            <b>AVANZADO:</b> Realiza una cabecera sencilla y aplica estilos para hacer un diseño responsive que se ajuste a diferentes pantallas.
+          </li>
+          <br />
+        </ol>
+        <p>Soluciones sugeridas al final del documento.</p>
+      </section>
+
+      <!-- Sección de recursos adicionales -->
+      <section class="caja__tipos__html">
+        <h3 class="recursos">Recursos Adicionales</h3>
+        <p>Consulta estos recursos para aprender más sobre CSS:</p>
+        <ul>
+          <li>
+            <a class="aprendizaje__python" href="https://developer.mozilla.org/es/docs/Web/CSS"
+              >MDN Web Docs: Guía de CSS</a
+            >
+          </li>
+          <li>
+            <a class="aprendizaje__python" href="https://www.w3schools.com/css/"
+              >W3Schools: Tutorial de CSS</a
+            >
+          </li>
+          <li>
+            <a class="aprendizaje__python" href="https://www.codecademy.com/"
+              >Codecademy</a
+            >
+          </li>
+        </ul>
+      </section>
+    </main>
+
+    <!-- Pie de página -->
+    <footer class="pie">
+      <p>&copy; 2024 Alejandro - Todos los derechos reservados</p>
+      <p>
+        <a href="politica.html" class="pie__enlace">Política de privacidad</a> |
+        <a href="contacto.html" class="pie__enlace">Contacto</a>
+      </p>
+      <nav>
+        <ul class="pie__redes">
+          <li>
+            <a href="https://www.instagram.com/" class="redes__icono"
+              >Instagram</a
+            >
+          </li>
+          <li><a href="https://x.com/" class="redes__icono">Twitter</a></li>
+          <li>
+            <a href="https://www.facebook.com/" class="redes__icono"
+              >Facebook</a
+            >
+          </li>
+        </ul>
+      </nav>
+    </footer>
+  </body>
 </html>
