@@ -229,27 +229,3 @@ además de darle estilos a nuestras etiquetas podemos organizar nuestro contenid
 que hacen que los usuarios tengan una experiencia comoda y satisfactoria en nuestra web.
 
 
-
-
-# PARTE NO HECHA
-
-Objetivos:
-La página web debe contener las siguientes páginas:
-INICIO SESIÓN
-REGISTRO
-PYTHON
-CSS
-HTML
-SOBRE NOSOTROS (OPCIONAL)
-
-En las páginas cuyos objetivos sean el aprendizaje del usuario su contenido se va a establecer en forma de definición, ejemplo:
-Variable int (Esto sería el índice)
-La variable int es un tipo de variable que almacena datos numéricos. (Esto sería la definición del índice)
-
-numero =int(9)
-print(type(numero))
-(Esto sería la muestra de la prueba para que el usuario pueda entender de forma gráfica el funcionamiento del contenido)
-
-He implementado las pruebas ya que la parte gráfica ayuda a que el usuario pueda entender más fácilmente la información además de tener un ejemplo de su uso implementado en el código.
-
-
