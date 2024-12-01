@@ -253,34 +253,3 @@ print(type(numero))
 He implementado las pruebas ya que la parte gráfica ayuda a que el usuario pueda entender más fácilmente la información además de tener un ejemplo de su uso implementado en el código.
 
 
-# ESCRIBIR MAS
-
-
-
-
-
-
-
-
-Estructura:
-Se ha seguido una estructura común para todas las páginas.
-Esta estructura es:
-
-Primero defino la cabecera
-<header>
-	<img>
-	<nav>
-		<ul>
-			<li>
-			<li>
-	</ul>
-	</nav>
-</header>
-
-Luego defino el contenido de la página
-<h1>
-<p> </p>
-
-Luego defino el pie de página:
-
-TENGO QUE PONERLO

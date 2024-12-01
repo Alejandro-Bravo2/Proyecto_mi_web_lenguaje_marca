@@ -53,7 +53,7 @@ body {
 /* Estilos para la zona de la cabecera */
 /* Esta zona es un contenedor flex dentro de la cabecera que contiene el formulario y el menú */
 .cabecera__zona {
-  display: flex; /* Establece un contenedor flex */
+  display: flex; 
   flex-direction: column; /* Coloca los elementos en columna (formulario encima del menú) */
   align-items: flex-end; /* Alinea los elementos al final del eje horizontal (derecha) */
   gap: 1rem; /* Espacio entre el formulario y el menú */
@@ -65,8 +65,8 @@ body {
   border: 2px solid yellow; /* Borde amarillo */
   border-radius: 5px; /* Bordes redondeados */
   font-size: 1rem; /* Tamaño de fuente */
-  background: #222; /* Fondo gris oscuro */
-  color: #fff; /* Color de texto blanco */
+  background: #222; 
+  color: #fff; 
 }
 
 /* Estilos al enfocar el input */
@@ -78,8 +78,8 @@ body {
 .formulario__boton {
   padding: 0.5rem 1rem; /* Relleno interno */
   border: solid purple 0.1rem; /* Borde morado */
-  background: purple; /* Fondo morado */
-  color: mistyrose; /* Color de texto */
+  background: purple; 
+  color: mistyrose; 
   border-radius: 5px; /* Bordes redondeados */
   cursor: pointer; /* Cambia el cursor al pasar */
   transition: all 0.5s ease; /* Transición suave */
@@ -87,29 +87,29 @@ body {
 
 /* Estilos al pasar el cursor sobre el botón */
 .formulario__boton:hover {
-  background: mistyrose; /* Cambia el fondo */
-  color: purple; /* Cambia el color de texto */
+  background: mistyrose; 
+  color: purple;
 }
 
 /* Estilos para el menú en la cabecera */
 /* Contenedor flex dentro de .cabecera__zona que organiza los enlaces del menú */
 .cabecera__zona__menu {
-  display: flex; /* Establece un contenedor flex */
+  display: flex; 
   align-items: center; /* Centra verticalmente los enlaces del menú */
   gap: 1rem; /* Espacio entre cada enlace del menú */
 }
 
 /* Estilos para los enlaces del menú */
 .menu__enlace {
-  font-size: 1rem; /* Tamaño de fuente */
+  font-size: 1rem; 
   color: yellow; /* Color de texto */
   text-decoration: none; /* Sin subrayado */
 }
 
 /* Estilos al pasar el cursor sobre los enlaces */
 .menu__enlace:hover {
-  font-size: 1.5rem; /* Aumenta el tamaño de fuente */
-  color: purple; /* Cambia el color de texto */
+  font-size: 1.5rem; 
+  color: purple; 
 }
 
 /* Página Principal */
@@ -122,24 +122,24 @@ body {
 /* El tamaño del título es proporcional al tamaño de la pantalla debido al uso de unidades relativas */
 .titulo__inicio {
   padding-top: 10%; /* Añade un espacio superior equivalente al 10% de la altura del contenedor padre */
-  font-size: 5rem; /* Tamaño de fuente grande para el título */
-  color: navy; /* Color de texto azul marino */
-  font-family: Verdana; /* Fuente Verdana */
+  font-size: 4rem; 
+  color: navy; 
+  font-family: Verdana; 
 }
 
 /* Estilos para el subtítulo */
 .contenido_titulo_inicio {
-  color: yellow; /* Color de texto amarillo */
+  color: yellow; 
 }
 
 /* Estilos para el buscador de inicio */
 .buscador__inicio {
   padding: 0.6rem; /* Relleno interno */
   border: solid yellow 0.1rem; /* Borde amarillo */
-  background: black; /* Fondo negro */
-  color: lightcoral; /* Color de texto */
+  background: black; 
+  color: lightcoral; 
   border-radius: 15rem; /* Bordes extremadamente redondeados */
-  font-size: 1.5rem; /* Tamaño de fuente */
+  font-size: 1.5rem; 
   width: 30rem; /* Ancho del buscador */
   text-align: center; /* Centra el texto */
 }
@@ -148,18 +148,18 @@ body {
 .boton_buscador_inicio {
   padding: 0.3rem 0.5rem; /* Relleno interno */
   border: solid purple 0.1rem; /* Borde morado */
-  color: white; /* Color de texto blanco */
-  background: purple; /* Fondo morado */
+  color:rgb(36, 53, 4); 
+  background: linear-gradient(135deg, #FFC0CB, #97ccd3); 
   transform: all ease 0.5s; /* Transformación suave */
-  font-size: 2rem; /* Tamaño de fuente grande */
+  font-size: 2rem; 
   border-radius: 15rem; /* Bordes extremadamente redondeados */
   transition: all ease 0.5s; /* Transición suave */
 }
 
 /* Estilos al pasar el cursor sobre el botón del buscador */
 .boton_buscador_inicio:hover {
-  background: white; /* Cambia el fondo a blanco */
-  color: blueviolet; /* Cambia el color de texto */
+  background: linear-gradient(35deg, #e9ce36, #C0C0C0); 
+  color: rgb(0, 0, 0); 
 }
 
 /* Estilos para las imágenes principales de lenguajes */
@@ -191,14 +191,14 @@ body {
 
 /* Título de la sección Python */
 .titulo__python {
-  font-size: 2.3rem; /* Tamaño de fuente */
+  font-size: 2.3rem; 
   text-align: center; /* Centra el texto */
 }
 
 /* Estilos para las preguntas en Python */
 .pregunta__python {
-  font-size: 1.5rem; /* Tamaño de fuente */
-  color: black; /* Color de texto negro */
+  font-size: 1.5rem; 
+  color: black; 
   margin-top: 0.5rem; /* Margen superior */
 }
 
@@ -210,8 +210,8 @@ body {
 
 /* Título para variables en Python */
 .titulo__variables__python {
-  color: black; /* Color de texto negro */
-  font-size: 1.5rem; /* Tamaño de fuente */
+  color: black; 
+  font-size: 1.5rem;
 }
 
 /* Sección de variables en Python */
@@ -241,13 +241,13 @@ body {
 
 /* Estilos para enlaces en recursos */
 .python__recursos a {
-  color: #2575fc; /* Color de enlace */
+  color: #2575fc; 
 }
 
 /* Efecto al pasar el cursor sobre enlaces en recursos */
 .python__recursos a:hover {
-  color: black; /* Cambia el color de texto */
-  font-size: 1.1rem; /* Aumenta el tamaño de fuente */
+  color: black; 
+  font-size: 1.1rem; 
   text-decoration: underline; /* Subraya el texto */
 }
 
@@ -256,15 +256,15 @@ code {
   display: block; /* Bloque */
   padding: 1rem; /* Relleno interno */
   background: #222; /* Fondo gris oscuro */
-  color: #6a11cb; /* Color de texto */
+  color: #6a11cb; 
   border-radius: 5px; /* Bordes redondeados */
   margin: 1rem 0; /* Márgenes verticales */
 }
 
 /* Efecto al pasar el cursor sobre elementos de aprendizaje en Python */
 .aprendizaje__python:hover {
-  font-size: 1.4rem; /* Aumenta el tamaño de fuente */
-  color: #8422ec; /* Cambia el color de texto */
+  font-size: 1.4rem; 
+  color: #8422ec; 
   font-family: Georgia; /* Cambia la fuente */
 }
 
@@ -282,7 +282,7 @@ code {
 
 /* Título en la caja de tipos HTML */
 .caja__tipos__html h3 {
-  color: #6a11cb; /* Color de texto */
+  color: #6a11cb; 
 }
 
 /* Lista de tipos en HTML */
@@ -293,7 +293,7 @@ code {
 
 /* Estilos para recursos */
 .recursos {
-  color: #6a11cb; /* Color de texto */
+  color: #6a11cb; 
 }
 
 /* FORMULARIOS */
@@ -304,7 +304,7 @@ code {
   max-width: 25rem; /* Ancho máximo en pantallas más grandes */
   margin: 2rem auto; /* Centra el formulario horizontalmente */
   padding: 2rem; /* Relleno interno */
-  background: rgba(0, 0, 0, 0.8); /* Fondo semi-transparente */
+  background: rgba(0, 0, 0, 0.8); 
   border-radius: 0.6rem; /* Bordes redondeados */
 }
 
@@ -316,7 +316,7 @@ code {
 
 /* Clase para formularios activos */
 .formulario--activo {
-  display: flex; /* Usamos flexbox */
+  display: flex; 
 }
 
 /* Título de inicio de sesión */
@@ -332,9 +332,9 @@ code {
   border: 2px solid #fff; /* Borde blanco */
   border-radius: 5px; /* Bordes redondeados */
   outline: none; /* Sin contorno al enfocar */
-  font-size: 1rem; /* Tamaño de fuente */
-  background: #222; /* Fondo gris oscuro */
-  color: #fff; /* Color de texto blanco */
+  font-size: 1rem; 
+  background: #222; 
+  color: #fff; 
 }
 
 /* Estilos al enfocar los inputs */
@@ -348,15 +348,15 @@ code {
   border: none; /* Sin borde */
   border-radius: 5px; /* Bordes redondeados */
   background: #6a11cb; /* Fondo */
-  color: #fff; /* Color de texto blanco */
-  font-size: 1rem; /* Tamaño de fuente */
+  color: #fff; 
+  font-size: 1rem; 
   cursor: pointer; /* Cambia el cursor al pasar */
   transition: background 0.3s ease; /* Transición suave */
 }
 
 /* Estilos al pasar el cursor sobre el botón */
 .boton__sesion:hover {
-  background: #2575fc; /* Cambia el fondo */
+  background: #2575fc; 
 }
 
 /* Pregunta sobre registro */
@@ -380,7 +380,7 @@ code {
 /* Estilos para el pie de página */
 .pie {
   margin-top: auto; /* Empuja el pie al final */
-  background: black; /* Fondo negro */
+  background: black; 
   text-align: center; /* Centra el texto */
   padding: 1rem; /* Relleno interno */
   color: #fff; /* Color de texto blanco */
@@ -388,12 +388,12 @@ code {
 
 /* Estilos para enlaces en el pie */
 .pie__enlace {
-  color: purple; /* Color del enlace */
+  color: purple; 
 }
 
 /* Estilos al pasar el cursor sobre el enlace */
 .pie__enlace:hover {
-  color: yellow; /* Cambia el color del texto */
+  color: yellow; 
 }
 
 /* Lista de redes sociales en el pie */
@@ -408,14 +408,14 @@ code {
 
 /* Estilos para los iconos de redes sociales */
 .redes__icono {
-  color: yellow; /* Color del texto */
+  color: yellow; 
   font-weight: bold; /* Texto en negrita */
   text-decoration: none; /* Sin subrayado */
 }
 
 /* Estilos al pasar el cursor sobre los iconos */
 .redes__icono:hover {
-  color: purple; /* Cambia el color del texto */
+  color: purple; 
 }
 
 /* IMAGEN MENU */
@@ -433,7 +433,7 @@ code {
 
 /* Estilos para los enlaces del menú */
 .menu__enlace {
-  color: yellow; /* Color del texto */
+  color: yellow;
   text-decoration: none; /* Sin subrayado */
   font-size: 1rem; /* Tamaño de fuente */
   transition: all 0.3s ease; /* Transición suave */
@@ -441,8 +441,9 @@ code {
 
 /* Estilos al pasar el cursor sobre los enlaces */
 .menu__enlace:hover {
-  color: purple; /* Cambia el color del texto */
+  color: purple; 
   font-size: 1.2rem; /* Aumenta el tamaño de fuente */
+  text-decoration: underline;
 }
 
 /* Menú móvil */
@@ -450,7 +451,7 @@ code {
 .cabecera__movil {
   display: none; /* Oculto */
   width: 100%; /* Ancho completo */
-  background: black; /* Fondo negro */
+  background: black; 
   padding: 1rem; /* Relleno interno */
 }
 
@@ -468,7 +469,7 @@ code {
 /* Su tamaño y color permiten una interacción fácil en pantallas pequeñas */
 .menu__cabecera__movil {
   font-size: 2rem; /* Tamaño grande para facilitar el toque */
-  color: white; /* Color visible sobre fondo negro */
+  color: white; 
   cursor: pointer; /* Indica que es interactivo */
 }
 
@@ -484,17 +485,7 @@ code {
   gap: 1rem; /* Espacio entre elementos */
 }
 
-/* Estilos para los enlaces del menú móvil */
-.menu__enlace__movil {
-  color: white; /* Color del texto */
-  text-decoration: none; /* Sin subrayado */
-}
 
-/* Estilos al pasar el cursor sobre los enlaces móviles */
-.menu__enlace__movil:hover {
-  color: gold; /* Cambia el color del texto */
-  font-size: 1.1rem; /* Aumenta el tamaño de fuente */
-}
 
 /* Media Queries */
 /* Estilos aplicados cuando el ancho de la pantalla es menor o igual a 800px */
@@ -502,13 +493,16 @@ code {
   .cabecera {
     display: none; /* Ocultamos la cabecera estándar en dispositivos móviles */
   }
+  .buscador__inicio{
+    width: 25rem;
+  }
 
   .cabecera__movil {
     display: flex; /* Mostramos la cabecera móvil */
     align-items: center; /* Centra verticalmente los elementos dentro de la cabecera móvil */
     justify-content: space-between; /* Separa el logo y el ícono de menú a los extremos */
     padding: 0.5rem 1rem; /* Relleno interno */
-    background-color: black; /* Fondo negro */
+    background-color: black; 
   }
 
   .menu__entrada__cabecera__movil {
@@ -520,7 +514,7 @@ code {
     position: absolute; /* Posición absoluta */
     top: 60px; /* Debajo de la cabecera */
     right: 0; /* A la derecha */
-    width: 100%; /* Ancho completo */
+    width: auto; /* Ancho completo */
     flex-direction: column; /* Dirección en columna */
     background-color: black; /* Fondo negro */
     padding: 1rem; /* Relleno interno */
@@ -528,25 +522,61 @@ code {
   }
 
   .menu__cabecera__movil {
-    font-size: 2rem; /* Tamaño de fuente grande */
-    color: white; /* Color del texto */
+    font-size: 2rem; 
+    color: white;
     cursor: pointer; /* Cambia el cursor al pasar */
     user-select: none; /* Evita la selección de texto */
   }
 
   .menu__enlace__movil {
-    color: white; /* Color del texto */
+    color: white; 
     text-decoration: none; /* Sin subrayado */
     margin: 0.5rem 0; /* Márgenes verticales */
-    font-size: 1.2rem; /* Tamaño de fuente */
+    font-size: 1.2rem;
+    margin-left: 2rem;
   }
 
-  .cabecera__zona__movil {
-    margin-top: 2rem; /* Margen superior */
-  }
+
 
   .menu__enlace__movil:hover {
-    color: gold; /* Cambia el color del texto */
+    color: rgb(255, 132, 0);
+    font-size: 1.4rem;
+    text-decoration:underline;
+  }
+  .cabecera__zona__menu__movil{
+    flex-direction: column;
+    gap: 9px;
+  }
+  .cabecera__zona__movil{
+    margin-top: 2.5rem;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    gap: 30px;
+    flex-direction: column;
+    background: linear-gradient(145deg, #4191e1, #9a26e2);
+    position: absolute;
+    top: 60px;
+    right: 20px;
+    border-radius: 8px;
+  }
+  .cabecera__zona__movil.show{
+    display: flex;
+  }
+  
+  .cabecera__zona__menu__movil a {
+  text-decoration: none;
+  color: rgb(255, 255, 255);
+  padding: auto auto;
+  transition: all 0.3s ease;
+  }
+
+  .cabecera__zona__menu__movil a:hover {
+    background-color: linear-gradient(145deg, #35df22, #e2e226);
+    border-radius: 5px;
+    
   }
 }
+  
+
 
