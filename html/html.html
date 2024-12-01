@@ -1,33 +1,45 @@
-<!DOCTYPE html> <!-- Declara el tipo de documento como HTML5 -->
-<html lang="es"> <!-- Indica que el idioma del contenido es español -->
+<!DOCTYPE html>
+<!-- Declara el tipo de documento como HTML5 -->
+<html lang="es">
+  <!-- Indica que el idioma del contenido es español -->
   <head>
-    <meta charset="UTF-8" /> <!-- Especifica el conjunto de caracteres como UTF-8 -->
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" /> <!-- Hace que la página sea responsiva en dispositivos móviles -->
-    <title>Aprendiendo Html</title> <!-- Título que aparece en la pestaña del navegador -->
-    <link rel="stylesheet" href="../css/principal.css" /> <!-- Enlaza la hoja de estilos CSS -->
+    <meta charset="UTF-8" />
+    <!-- Especifica el conjunto de caracteres como UTF-8 -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Hace que la página sea responsiva en dispositivos móviles -->
+    <title>Aprendiendo Html</title>
+    <!-- Título que aparece en la pestaña del navegador -->
+    <link rel="stylesheet" href="../css/principal.css" />
+    <!-- Enlaza la hoja de estilos CSS -->
   </head>
 
   <body>
     <!-- Cabecera del sitio web -->
     <header class="cabecera">
-      <a href="main.html"> <!-- Enlace a la página principal -->
+      <a href="main.html">
+        <!-- Enlace a la página principal -->
         <img
           class="cabecera__logo"
-          src="../assets/logo.png" 
+          src="../assets/logo.png"
           alt="LOGO TIENDA"
         />
       </a>
-      <article class="cabecera__zona"> <!-- Contenedor para formulario y menú -->
-        <form class="cabecera__formulario"> <!-- Formulario de búsqueda -->
+      <article class="cabecera__zona">
+        <!-- Contenedor para formulario y menú -->
+        <form class="cabecera__formulario">
+          <!-- Formulario de búsqueda -->
           <input
-            class="formulario__input" 
-            type="text" 
-            placeholder="Buscar contenido..." 
+            class="formulario__input"
+            type="text"
+            placeholder="Buscar contenido..."
           />
-          <button class="formulario__boton" type="submit">Buscar</button> <!-- Botón para enviar el formulario -->
+          <button class="formulario__boton" type="submit">Buscar</button>
+          <!-- Botón para enviar el formulario -->
         </form>
-        <nav> <!-- Menú de navegación -->
-          <ul class="cabecera__zona__menu"> <!-- Lista de elementos del menú -->
+        <nav>
+          <!-- Menú de navegación -->
+          <ul class="cabecera__zona__menu">
+            <!-- Lista de elementos del menú -->
             <li><a class="menu__enlace" href="main.html">Inicio</a></li>
             <li><a class="menu__enlace" href="python.html">Python</a></li>
             <li><a class="menu__enlace" href="css.html">CSS</a></li>
@@ -43,20 +55,26 @@
 
     <!-- Cabecera para dispositivos móviles -->
     <header class="cabecera__movil">
-      <a href="main.html"> <!-- Enlace a la página principal -->
-        <img
-          src="../assets/logo.png" 
-          alt="LOGO TIENDA" 
-        />
+      <a href="main.html">
+        <!-- Enlace a la página principal -->
+        <img src="../assets/logo.png" alt="LOGO TIENDA" class="cabecera__logo__movil"/>
       </a>
-      <input type="checkbox" id="menu" class="menu__entrada__cabecera__movil" /> <!-- Checkbox para controlar la visibilidad del menú móvil -->
-      <label for="menu" class="menu__cabecera__movil">☰</label> <!-- Icono de menú hamburguesa -->
-      <nav class="cabecera__zona__movil"> <!-- Menú de navegación móvil -->
-        <ul class="cabecera__zona__menu__movil"> <!-- Lista de enlaces del menú móvil -->
-          <li><a class="menu__enlace__movil" href="main.html">Inicio</a></li> <!-- Enlace a Inicio -->
-          <li><a class="menu__enlace__movil" href="python.html">Python</a></li> <!-- Enlace a Python -->
-          <li><a class="menu__enlace__movil" href="css.html">CSS</a></li> <!-- Enlace a CSS -->
-          <li><a class="menu__enlace__movil" href="html.html">HTML</a></li> <!-- Enlace a HTML -->
+      <input type="checkbox" id="menu" class="menu__entrada__cabecera__movil" />
+      <!-- Checkbox para controlar la visibilidad del menú móvil -->
+      <label for="menu" class="menu__cabecera__movil">☰</label>
+      <!-- Icono de menú hamburguesa -->
+      <nav class="cabecera__zona__movil">
+        <!-- Menú de navegación móvil -->
+        <ul class="cabecera__zona__menu__movil">
+          <!-- Lista de enlaces del menú móvil -->
+          <li><a class="menu__enlace__movil" href="main.html">Inicio</a></li>
+          <!-- Enlace a Inicio -->
+          <li><a class="menu__enlace__movil" href="python.html">Python</a></li>
+          <!-- Enlace a Python -->
+          <li><a class="menu__enlace__movil" href="css.html">CSS</a></li>
+          <!-- Enlace a CSS -->
+          <li><a class="menu__enlace__movil" href="html.html">HTML</a></li>
+          <!-- Enlace a HTML -->
           <li>
             <a class="menu__enlace__movil" href="registro.html">Registro</a>
           </li>
@@ -71,20 +89,24 @@
 
     <!-- Contenido principal de la página -->
     <main class="contenido">
-      <h1 class="titulo__python">Aprendiendo Html</h1> <!-- Título principal -->
+      <h1 class="titulo__python">Aprendiendo Html</h1>
+      <!-- Título principal -->
 
       <!-- Sección que explica qué es HTML -->
       <section class="caja__tipos__html">
-        <h3 class="pregunta__python">¿Qué es Html?</h3> <!-- Subtítulo -->
+        <h3 class="pregunta__python">¿Qué es Html?</h3>
+        <!-- Subtítulo -->
         <p>
           HTML es el lenguaje estándar que se utiliza para estructurar y
           presentar el contenido en una página web. Es como el esqueleto de una
           página, definiendo la estructura de la página web. Al aprender HTML,
           estarás dando el primer paso para crear tus propias páginas web.
         </p>
-        <h3 class="pregunta__python">Características Principales:</h3> <!-- Subtítulo -->
+        <h3 class="pregunta__python">Características Principales:</h3>
+        <!-- Subtítulo -->
         <ul class="lista__python">
-          <li>Se ejecuta en el navegador</li> <!-- Elemento de lista -->
+          <li>Se ejecuta en el navegador</li>
+          <!-- Elemento de lista -->
           <li>Su sintaxis se basa en etiquetas, definiendo el tipo de dato</li>
           <li>
             Junto con css permiten una gran personalizan y creación de páginas
@@ -95,10 +117,15 @@
 
       <!-- Sección que explica el uso de HEAD y BODY en HTML -->
       <section class="caja__tipos__html">
-        <h3 class="titulo__variables__python">HEAD</h3> <!-- Subtítulo -->
-        <p>En el head pondremos el título, links y el conjunto de caracteres usado.</p>
+        <h3 class="titulo__variables__python">HEAD</h3>
+        <!-- Subtítulo -->
+        <p>
+          En el head pondremos el título, links y el conjunto de caracteres
+          usado.
+        </p>
         <p>Para poner un título a nuestra página web:</p>
-        <code>&lt;title&gt;Alejandro&lt;/title&gt;</code> <!-- Ejemplo de código -->
+        <code>&lt;title&gt;Alejandro&lt;/title&gt;</code>
+        <!-- Ejemplo de código -->
         <br />
         <p>Para poner enlaces a hojas de estilos:</p>
         <code>&lt;link rel="stylesheet" href="../css/principal.css" /&gt;</code>
@@ -106,7 +133,8 @@
         <p>Para definir el conjunto de caracteres:</p>
         <code>&lt;meta charset="UTF-8" /&gt;</code>
         <br />
-        <h3 class="titulo__variables__python">BODY</h3> <!-- Subtítulo -->
+        <h3 class="titulo__variables__python">BODY</h3>
+        <!-- Subtítulo -->
         <p>
           En el body escribiremos la estructura de nuestro código, estando esta
           formada por 3 partes: header, main y footer. En el header escribiremos
@@ -122,18 +150,25 @@
           Normalmente en la cabecera tenemos un formulario o un menú de
           navegación, el cual podría ser un nav o form.
         </p>
-        <code>&lt;nav&gt;&lt;ul&gt;&lt;li&gt;&lt;a href="#"&gt;Enlace&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;&lt;/nav&gt;</code> <!-- Estructura básica -->
+        <code
+          >&lt;nav&gt;&lt;ul&gt;&lt;li&gt;&lt;a
+          href="#"&gt;Enlace&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;&lt;/nav&gt;</code
+        >
+        <!-- Estructura básica -->
         <br />
 
         <ul class="caja__tipos__html">
           <h3>Etiquetas comunes en HTML:</h3>
           <li class="tipos__html">&lt;p&gt; = párrafos</li>
-          <li class="tipos__html">&lt;h+num&gt; = Títulos y sus estilos predefinidos</li>
+          <li class="tipos__html">
+            &lt;h+num&gt; = Títulos y sus estilos predefinidos
+          </li>
           <li class="tipos__html">&lt;a&gt; = enlaces</li>
           <li class="tipos__html">&lt;img&gt; = imágenes</li>
           <li class="tipos__html">&lt;button&gt; = botones</li>
           <li class="tipos__html">
-            &lt;article&gt; y &lt;section&gt; = para agrupar contenido del mismo tipo
+            &lt;article&gt; y &lt;section&gt; = para agrupar contenido del mismo
+            tipo
           </li>
           <li class="tipos__html">
             &lt;input&gt; = para preguntar al usuario por datos
@@ -151,15 +186,15 @@
         </p>
         <ol>
           <li>
-            Crea una página HTML que incluya un título y un párrafo describiendo de qué trata.
+            Crea una página HTML que incluya un título y un párrafo describiendo
+            de qué trata.
           </li>
           <br />
-          <li>
-            Añade una imagen y un enlace a tu página HTML.
-          </li>
+          <li>Añade una imagen y un enlace a tu página HTML.</li>
           <br />
           <li>
-            Crea una lista ordenada y una lista no ordenada con elementos que prefieras.
+            Crea una lista ordenada y una lista no ordenada con elementos que
+            prefieras.
           </li>
           <br />
         </ol>
@@ -172,12 +207,16 @@
         <p>Consulta estos recursos para aprender más sobre HTML:</p>
         <ul>
           <li>
-            <a class="aprendizaje__python" href="https://developer.mozilla.org/es/docs/Web/HTML"
+            <a
+              class="aprendizaje__python"
+              href="https://developer.mozilla.org/es/docs/Web/HTML"
               >MDN Web Docs: Guía de HTML</a
             >
           </li>
           <li>
-            <a class="aprendizaje__python" href="https://www.w3schools.com/html/"
+            <a
+              class="aprendizaje__python"
+              href="https://www.w3schools.com/html/"
               >W3Schools: Tutorial de HTML</a
             >
           </li>
@@ -192,7 +231,8 @@
 
     <!-- Pie de página -->
     <footer class="pie">
-      <p>&copy; 2024 Alejandro - Todos los derechos reservados</p> <!-- Derechos de autor -->
+      <p>&copy; 2024 Alejandro - Todos los derechos reservados</p>
+      <!-- Derechos de autor -->
       <p>
         <a href="politica.html" class="pie__enlace">Política de privacidad</a> |
         <a href="contacto.html" class="pie__enlace">Contacto</a>
