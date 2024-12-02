@@ -20,7 +20,7 @@ a {
 /* Variables CSS */
 /* Definimos una variable para el fondo */
 :root {
-  --background-color: linear-gradient(45deg, #6a11cb, #2575fc); /* Fondo con gradiente */
+  --background-color:#A96F47; /* Fondo con gradiente */
 }
 
 /* Estilos para el cuerpo de la página */
@@ -62,7 +62,7 @@ body {
 /* Estilos para el input del formulario */
 .formulario__input {
   padding: 0.5rem; /* Relleno interno */
-  border: 2px solid yellow; /* Borde amarillo */
+  border: 2px solid #FBCE02; /* Borde amarillo */
   border-radius: 5px; /* Bordes redondeados */
   font-size: 1rem; /* Tamaño de fuente */
   background: #222; 
@@ -71,15 +71,14 @@ body {
 
 /* Estilos al enfocar el input */
 .formulario__input:focus {
-  border-color: yellow; /* Color del borde al enfocarse */
+  border-color:  #FBCE02;/* Color del borde al enfocarse */
 }
 
 /* Estilos para el botón del formulario */
 .formulario__boton {
   padding: 0.5rem 1rem; /* Relleno interno */
-  border: solid purple 0.1rem; /* Borde morado */
-  background: purple; 
-  color: mistyrose; 
+  border: solid #5D4A39 0.1rem; /* Borde morado */
+  background: #A96F47; 
   border-radius: 5px; /* Bordes redondeados */
   cursor: pointer; /* Cambia el cursor al pasar */
   transition: all 0.5s ease; /* Transición suave */
@@ -87,8 +86,8 @@ body {
 
 /* Estilos al pasar el cursor sobre el botón */
 .formulario__boton:hover {
-  background: mistyrose; 
-  color: purple;
+  background: #5D4A39; 
+  color: #FBCE02;
 }
 
 /* Estilos para el menú en la cabecera */
@@ -102,14 +101,14 @@ body {
 /* Estilos para los enlaces del menú */
 .menu__enlace {
   font-size: 1rem; 
-  color: yellow; /* Color de texto */
+  color: #FBCE02; /* Color de texto */
   text-decoration: none; /* Sin subrayado */
 }
 
 /* Estilos al pasar el cursor sobre los enlaces */
 .menu__enlace:hover {
   font-size: 1.5rem; 
-  color: purple; 
+  color: #F27B57; 
 }
 
 /* Página Principal */
@@ -123,22 +122,22 @@ body {
 .titulo__inicio {
   padding-top: 10%; /* Añade un espacio superior equivalente al 10% de la altura del contenedor padre */
   font-size: 4rem; 
-  color: navy; 
+  color: #5D4A39; 
   font-family: Verdana; 
 }
 
 /* Estilos para el subtítulo */
 .contenido_titulo_inicio {
-  color: yellow; 
+  color: #FBCE02; 
 }
 
 /* Estilos para el buscador de inicio */
 .buscador__inicio {
   padding: 0.6rem; /* Relleno interno */
-  border: solid yellow 0.1rem; /* Borde amarillo */
+  border: solid #FBCE02 0.1rem; /* Borde amarillo */
   background: black; 
-  color: lightcoral; 
   border-radius: 15rem; /* Bordes extremadamente redondeados */
+  color: #FBCE02;
   font-size: 1.5rem; 
   width: 30rem; /* Ancho del buscador */
   text-align: center; /* Centra el texto */
@@ -147,9 +146,8 @@ body {
 /* Estilos para el botón del buscador */
 .boton_buscador_inicio {
   padding: 0.3rem 0.5rem; /* Relleno interno */
-  border: solid purple 0.1rem; /* Borde morado */
-  color:rgb(36, 53, 4); 
-  background: linear-gradient(135deg, #FFC0CB, #97ccd3); 
+  border: solid 0.1rem; /* Borde morado */
+  background: #5D4A39; 
   transform: all ease 0.5s; /* Transformación suave */
   font-size: 2rem; 
   border-radius: 15rem; /* Bordes extremadamente redondeados */
@@ -158,7 +156,7 @@ body {
 
 /* Estilos al pasar el cursor sobre el botón del buscador */
 .boton_buscador_inicio:hover {
-  background: linear-gradient(35deg, #e9ce36, #C0C0C0); 
+  background: #FBCE02; 
   color: rgb(0, 0, 0); 
 }
 
@@ -228,9 +226,8 @@ body {
 }
 
 /* Estilos para títulos en ejercicios y recursos */
-.python__ejercicios h3,
-.python__recursos h3 {
-  color: #6a11cb; /* Color de texto */
+.python__ejercicios h3{
+  color: #FBCE02;
 }
 
 /* Lista de recursos en Python */
@@ -256,7 +253,7 @@ code {
   display: block; /* Bloque */
   padding: 1rem; /* Relleno interno */
   background: #222; /* Fondo gris oscuro */
-  color: #6a11cb; 
+  color: white; 
   border-radius: 5px; /* Bordes redondeados */
   margin: 1rem 0; /* Márgenes verticales */
 }
@@ -264,7 +261,7 @@ code {
 /* Efecto al pasar el cursor sobre elementos de aprendizaje en Python */
 .aprendizaje__python:hover {
   font-size: 1.4rem; 
-  color: #8422ec; 
+  color: #FBCE02; 
   font-family: Georgia; /* Cambia la fuente */
 }
 
@@ -282,9 +279,11 @@ code {
 
 /* Título en la caja de tipos HTML */
 .caja__tipos__html h3 {
-  color: #6a11cb; 
+  color: #FBCE02; 
 }
-
+.caja__tipos__html a{
+  color: #A96F47;
+}
 /* Lista de tipos en HTML */
 .tipos__html {
   list-style: disc; /* Viñetas de disco */
@@ -347,7 +346,7 @@ code {
   padding: 0.8rem; /* Relleno interno */
   border: none; /* Sin borde */
   border-radius: 5px; /* Bordes redondeados */
-  background: #6a11cb; /* Fondo */
+  background: #A96F47; /* Fondo */
   color: #fff; 
   font-size: 1rem; 
   cursor: pointer; /* Cambia el cursor al pasar */
@@ -356,7 +355,7 @@ code {
 
 /* Estilos al pasar el cursor sobre el botón */
 .boton__sesion:hover {
-  background: #2575fc; 
+  background: #5D4A39; 
 }
 
 /* Pregunta sobre registro */
@@ -366,14 +365,14 @@ code {
 
 /* Enlaces para alternar sesión */
 .alternar__sesion {
-  color: #2575fc; /* Color del enlace */
+  color: #FBCE02; /* Color del enlace */
   text-decoration: none; /* Sin subrayado */
 }
 
 /* Estilos al pasar el cursor sobre el enlace */
 .alternar__sesion:hover {
   text-decoration: underline; /* Subraya el texto */
-  color: #6a11cb; /* Cambia el color del texto */
+  color: #F27B57; /* Cambia el color del texto */
 }
 
 /* FOOTER */
@@ -388,12 +387,12 @@ code {
 
 /* Estilos para enlaces en el pie */
 .pie__enlace {
-  color: purple; 
+  color: #FBCE02; 
 }
 
 /* Estilos al pasar el cursor sobre el enlace */
 .pie__enlace:hover {
-  color: yellow; 
+  color: #F27B57; 
 }
 
 /* Lista de redes sociales en el pie */
@@ -408,14 +407,14 @@ code {
 
 /* Estilos para los iconos de redes sociales */
 .redes__icono {
-  color: yellow; 
+  color: #FBCE02; 
   font-weight: bold; /* Texto en negrita */
   text-decoration: none; /* Sin subrayado */
 }
 
 /* Estilos al pasar el cursor sobre los iconos */
 .redes__icono:hover {
-  color: purple; 
+  color: #F27B57; 
 }
 
 /* IMAGEN MENU */
@@ -433,7 +432,7 @@ code {
 
 /* Estilos para los enlaces del menú */
 .menu__enlace {
-  color: yellow;
+  color: #FBCE02;
   text-decoration: none; /* Sin subrayado */
   font-size: 1rem; /* Tamaño de fuente */
   transition: all 0.3s ease; /* Transición suave */
@@ -441,8 +440,8 @@ code {
 
 /* Estilos al pasar el cursor sobre los enlaces */
 .menu__enlace:hover {
-  color: purple; 
   font-size: 1.2rem; /* Aumenta el tamaño de fuente */
+  color: #F27B57;
   text-decoration: underline;
 }
 
