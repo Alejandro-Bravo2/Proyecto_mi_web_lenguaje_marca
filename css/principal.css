@@ -145,6 +145,7 @@ body {
 
 /* Estilos para el botón del buscador */
 .boton_buscador_inicio {
+  margin-top: 1rem;
   padding: 0.3rem 0.5rem; /* Relleno interno */
   border: solid 0.1rem; /* Borde morado */
   background: #5D4A39; 
