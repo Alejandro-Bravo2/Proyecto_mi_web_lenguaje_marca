@@ -574,6 +574,7 @@ code {
   .cabecera__zona__menu__movil a:hover {
     background-color: #FBCE02;
     border-radius: 5px;
+    color: black;
     
   }
 }
