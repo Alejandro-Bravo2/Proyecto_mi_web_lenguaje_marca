@@ -338,7 +338,7 @@ code {
 
 /* Estilos al enfocar los inputs */
 .entrada__sesion:focus {
-  border-color: #6a11cb; /* Cambia el color del borde */
+  border-color: #A96F47; /* Cambia el color del borde */
 }
 
 /* Estilos para el botón de sesión */
