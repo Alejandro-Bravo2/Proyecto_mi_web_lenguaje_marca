@@ -338,7 +338,7 @@ code {
 
 /* Estilos al enfocar los inputs */
 .entrada__sesion:hover {
-  border-color: black; /* Cambia el color del borde */
+  border-color: #a96f47; /* Cambia el color del borde */
 }
 
 /* Estilos para el botón de sesión */
