@@ -554,7 +554,7 @@ code {
     padding: 10px 20px;
     gap: 30px;
     flex-direction: column;
-    background: linear-gradient(145deg, #4191e1, #9a26e2);
+    background: #5D4A39;
     position: absolute;
     top: 60px;
     right: 20px;
@@ -572,7 +572,7 @@ code {
   }
 
   .cabecera__zona__menu__movil a:hover {
-    background-color: linear-gradient(145deg, #35df22, #e2e226);
+    background-color: #FBCE02;
     border-radius: 5px;
     
   }
