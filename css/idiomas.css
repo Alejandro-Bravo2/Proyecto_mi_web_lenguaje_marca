@@ -499,7 +499,7 @@
     width: 100%;
     padding: 4rem;
     text-align: center;
-    font-size: 2.2rem;
+    font-size: 4rem;
     color: #5D4A39;
   }
   
@@ -636,6 +636,9 @@
       flex-direction: column;
       align-content: center;
       align-items: center;
+    }
+    .lenguajes__titulo__idiomas{
+      font-size: 2.2rem;
     }
   }
     

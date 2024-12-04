@@ -485,68 +485,6 @@ code {
   gap: 1rem; /* Espacio entre elementos */
 }
 
-/*Lenguajes imagenes viñetas*/
-.lenguajes__apartado__idiomas{
-  width: 100%;
-  gap: 2rem;
-  display: flex;
-  flex-wrap: wrap; /*ESTO ES PARA QUE LOS HIJOS PUEDAN USAR SUS TAMAÑOS*/
-  justify-content:space-between;
-
-  padding: 1rem 4rem;
-}
-.lenguajes__titulo__idiomas{
-  width: 100%;
-  padding: 4rem;
-  text-align: center;
-  font-size: 4rem;
-  color: #5D4A39;
-}
-
-.lenguajes__viñetas__idiomas{
-  width: 30%;
-  position: relative; /*ESTO ES PARA QUE LOS HIJOS DE ESTA ETIQUETA SE POSICION EN FUNCIÓN AL TAMAÑO DE ESTE TAMAÑO*/
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-between;
-  gap: 0.5rem;
-  
-}
-.lenguajes__imagen__idiomas{
-  width: 100%;
-
-  border-radius: 2rem;
-}
-
-.lenguajes__nombre__idiomas{
-  font-size: 2rem;
-  color: #5D4A39;
-}
-
-.lenguajes__enlace__idiomas {
-  padding: 0.5rem 1rem; /* Reducimos el padding */
-  font-size: 1rem; /* Reducimos el tamaño de la fuente */
-  border-radius: 0.5rem;
-  color: white;
-  background-color: #5D4A39;
-  text-decoration: none; /*Quitamos subrayado*/
-  align-items: center;
-  justify-content: center; /*alineamos en el centro*/
-  height: 3rem; /*Para que no se ajuste automaticamente a la caja*/
-  display: flex; /* Usamos inline-block para poder controlar el ancho y alto */
-}
-
-.lenguajes__enlace__idiomas:hover{
-  font-size: 1.5rem;
-  background-color: #FBCE02;
-}
-
-.titulo__inicio__idiomas {
-  padding-top: 10%; /* Añade un espacio superior equivalente al 10% de la altura del contenedor padre */
-  font-size: 4rem; 
-  color: #5D4A39; 
-  font-family: Verdana; 
-}
 
 
 /* Media Queries */
@@ -639,12 +577,7 @@ code {
     color: black;
     
   }
-  .titulo__inicio__idiomas {
-    padding-top: 10%; /* Añade un espacio superior equivalente al 10% de la altura del contenedor padre */
-    font-size: 3rem; 
-    color: #5D4A39; 
-    font-family: Verdana; 
-  }
+
   
 }
   
