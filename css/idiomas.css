@@ -1,0 +1,644 @@
+/* Reset general */
+/* Aplicamos estilos iniciales a todos los elementos */
+* {
+    margin: 0; /* Eliminamos márgenes */
+    padding: 0; /* Eliminamos rellenos */
+    box-sizing: border-box; /* Incluimos bordes y rellenos en el cálculo del ancho y alto */
+    font-family: Arial, sans-serif; /* Establecemos fuente por defecto */
+  }
+  
+  /* Eliminamos estilo de lista en elementos 'li' */
+  li {
+    list-style: none; /* Sin viñetas */
+  }
+  
+  /* Eliminamos subrayado en enlaces */
+  a {
+    text-decoration: none; /* Sin subrayado */
+  }
+  
+  /* Variables CSS */
+  /* Definimos una variable para el fondo */
+  :root {
+    --background-color:#A96F47; /* Fondo con gradiente */
+  }
+  
+  /* Estilos para el cuerpo de la página */
+  body {
+    display: flex; /* Usamos flexbox */
+    flex-direction: column; /* Dirección de los elementos en columna */
+    min-height: 100vh; /* Altura mínima de la pantalla */
+    color: #fff; /* Color de texto blanco */
+    background: var(--background-color); /* Aplicamos fondo de la variable */
+    font-size: 16px; /* Tamaño de fuente base */
+  }
+  
+  /* HEADER */
+  /* Estilos para la cabecera principal, que es un contenedor flex que contiene el logo y la zona de menú */
+  .cabecera {
+    width: 100%; /* Ancho completo para ocupar todo el espacio horizontal */
+    display: flex; /* Establece un contenedor flex */
+    justify-content: space-between; /* Distribuye los elementos (logo y zona) a los extremos */
+    align-items: center; /* Centra verticalmente los elementos dentro de la cabecera */
+    padding: 1rem 2rem; /* Relleno interno */
+    background: black; /* Fondo negro */
+  }
+  
+  /* Estilos para el logo en la cabecera */
+  /* El logo tiene un ancho fijo y su tamaño no depende de otros elementos */
+  .cabecera__logo {
+    width: 6rem; /* Ancho fijo del logo */
+  }
+  
+  /* Estilos para la zona de la cabecera */
+  /* Esta zona es un contenedor flex dentro de la cabecera que contiene el formulario y el menú */
+  .cabecera__zona {
+    display: flex; 
+    flex-direction: column; /* Coloca los elementos en columna (formulario encima del menú) */
+    align-items: flex-end; /* Alinea los elementos al final del eje horizontal (derecha) */
+    gap: 1rem; /* Espacio entre el formulario y el menú */
+  }
+  
+  /* Estilos para el input del formulario */
+  .formulario__input {
+    padding: 0.5rem; /* Relleno interno */
+    border: 2px solid #FBCE02; /* Borde amarillo */
+    border-radius: 5px; /* Bordes redondeados */
+    font-size: 1rem; /* Tamaño de fuente */
+    background: #222; 
+    color: #fff; 
+  }
+  
+  /* Estilos al enfocar el input */
+  .formulario__input:focus {
+    border-color:  #FBCE02;/* Color del borde al enfocarse */
+  }
+  
+  /* Estilos para el botón del formulario */
+  .formulario__boton {
+    padding: 0.5rem 1rem; /* Relleno interno */
+    border: solid #5D4A39 0.1rem; /* Borde morado */
+    background: #A96F47; 
+    border-radius: 5px; /* Bordes redondeados */
+    cursor: pointer; /* Cambia el cursor al pasar */
+    transition: all 0.5s ease; /* Transición suave */
+  }
+  
+  /* Estilos al pasar el cursor sobre el botón */
+  .formulario__boton:hover {
+    background: #5D4A39; 
+    color: #FBCE02;
+  }
+  
+  /* Estilos para el menú en la cabecera */
+  /* Contenedor flex dentro de .cabecera__zona que organiza los enlaces del menú */
+  .cabecera__zona__menu {
+    display: flex; 
+    align-items: center; /* Centra verticalmente los enlaces del menú */
+    gap: 1rem; /* Espacio entre cada enlace del menú */
+  }
+  
+  /* Estilos para los enlaces del menú */
+  .menu__enlace {
+    font-size: 1rem; 
+    color: #FBCE02; /* Color de texto */
+    text-decoration: none; /* Sin subrayado */
+  }
+  
+  /* Estilos al pasar el cursor sobre los enlaces */
+  .menu__enlace:hover {
+    font-size: 1.5rem; 
+    color: #F27B57; 
+  }
+  
+  /* Página Principal */
+  /* Contenedor que centra el contenido de inicio */
+  .contenido__inicio {
+    text-align: center; /* Centra horizontalmente el texto y elementos hijos */
+  }
+  
+  /* Estilos para el título de inicio */
+  /* El tamaño del título es proporcional al tamaño de la pantalla debido al uso de unidades relativas */
+  .titulo__inicio {
+    padding-top: 10%; /* Añade un espacio superior equivalente al 10% de la altura del contenedor padre */
+    font-size: 4rem; 
+    color: #5D4A39; 
+    font-family: Verdana; 
+  }
+  
+  /* Estilos para el subtítulo */
+  .contenido_titulo_inicio {
+    color: #FBCE02; 
+  }
+  
+  /* Estilos para el buscador de inicio */
+  .buscador__inicio {
+    padding: 0.6rem; /* Relleno interno */
+    border: solid #FBCE02 0.1rem; /* Borde amarillo */
+    background: black; 
+    border-radius: 15rem; /* Bordes extremadamente redondeados */
+    color: #FBCE02;
+    font-size: 1.5rem; 
+    width: 30rem; /* Ancho del buscador */
+    text-align: center; /* Centra el texto */
+  }
+  
+  /* Estilos para el botón del buscador */
+  .boton_buscador_inicio {
+    margin-top: 1rem;
+    padding: 0.3rem 0.5rem; /* Relleno interno */
+    border: solid 0.1rem; /* Borde morado */
+    background: #5D4A39; 
+    transform: all ease 0.5s; /* Transformación suave */
+    font-size: 2rem; 
+    border-radius: 15rem; /* Bordes extremadamente redondeados */
+    transition: all ease 0.5s; /* Transición suave */
+  }
+  
+  /* Estilos al pasar el cursor sobre el botón del buscador */
+  .boton_buscador_inicio:hover {
+    background: #FBCE02; 
+    color: rgb(0, 0, 0); 
+  }
+  
+  /* Estilos para las imágenes principales de lenguajes */
+  /* Contenedor que alberga los logos y los distribuye horizontalmente */
+  .imagenes__principal__lenguajes {
+    margin-top: 2rem; /* Espacio superior para separar del contenido anterior */
+  }
+  
+  /* Estilos para los logos */
+  /* Los logos se muestran en línea y se alinean dentro de un contenedor flex */
+  .imagenes__logos {
+    width: 9rem; /* Ancho fijo para cada logo */
+    display: inline-flex; /* Muestra los elementos en línea y como flex items */
+    align-items: center; /* Centra verticalmente los logos */
+  }
+  
+  /* Estilos específicos para el logo de HTML */
+  .imagenes__logos__html {
+    width: 14rem; /* Ancho del logo HTML */
+    display: inline-flex; /* Modelo flex en línea */
+    align-items: center; /* Alineación vertical centrada */
+  }
+  
+  /* Python */
+  /* Contenedor general */
+  .contenido {
+    padding: 4rem; /* Relleno interno */
+  }
+  
+  /* Título de la sección Python */
+  .titulo__python {
+    font-size: 2.3rem; 
+    text-align: center; /* Centra el texto */
+  }
+  
+  /* Estilos para las preguntas en Python */
+  .pregunta__python {
+    font-size: 1.5rem; 
+    color: black; 
+    margin-top: 0.5rem; /* Margen superior */
+  }
+  
+  /* Estilos para listas en Python */
+  .lista__python li {
+    list-style: square; /* Viñetas cuadradas */
+    margin-left: 4rem; /* Margen izquierdo */
+  }
+  
+  /* Título para variables en Python */
+  .titulo__variables__python {
+    color: black; 
+    font-size: 1.5rem;
+  }
+  
+  /* Sección de variables en Python */
+  .python__variables {
+    margin-top: 2rem; /* Margen superior */
+  }
+  
+  /* Caja para ejercicios en Python */
+  .python__ejercicios {
+    background: rgba(0, 0, 0, 0.7); /* Fondo semi-transparente */
+    padding: 1rem; /* Relleno interno */
+    margin: 1rem 0; /* Márgenes verticales */
+    border-radius: 0.5rem; /* Bordes redondeados */
+  }
+  
+  /* Estilos para títulos en ejercicios y recursos */
+  .python__ejercicios h3{
+    color: #FBCE02;
+  }
+  
+  /* Lista de recursos en Python */
+  .python__recursos ul {
+    padding: 1rem; /* Relleno interno */
+    list-style-type: square; /* Viñetas cuadradas */
+  }
+  
+  /* Estilos para enlaces en recursos */
+  .python__recursos a {
+    color: #2575fc; 
+  }
+  
+  /* Efecto al pasar el cursor sobre enlaces en recursos */
+  .python__recursos a:hover {
+    color: black; 
+    font-size: 1.1rem; 
+    text-decoration: underline; /* Subraya el texto */
+  }
+  
+  /* Estilos para bloques de código */
+  code {
+    display: block; /* Bloque */
+    padding: 1rem; /* Relleno interno */
+    background: #222; /* Fondo gris oscuro */
+    color: white; 
+    border-radius: 5px; /* Bordes redondeados */
+    margin: 1rem 0; /* Márgenes verticales */
+  }
+  
+  /* Efecto al pasar el cursor sobre elementos de aprendizaje en Python */
+  .aprendizaje__python:hover {
+    font-size: 1.4rem; 
+    color: #FBCE02; 
+    font-family: Georgia; /* Cambia la fuente */
+  }
+  
+  /* HTML */
+  /* Caja para tipos en HTML */
+  .caja__tipos__html {
+    display: flex; /* Usamos flexbox */
+    flex-direction: column; /* Dirección en columna */
+    gap: 4px; /* Espacio entre elementos */
+    background: rgba(0, 0, 0, 0.7); /* Fondo semi-transparente */
+    padding: 1rem; /* Relleno interno */
+    margin: 1rem 0; /* Márgenes verticales */
+    border-radius: 0.5rem; /* Bordes redondeados */
+  }
+  
+  /* Título en la caja de tipos HTML */
+  .caja__tipos__html h3 {
+    color: #FBCE02; 
+  }
+  .caja__tipos__html a{
+    color: #A96F47;
+  }
+  /* Lista de tipos en HTML */
+  .tipos__html {
+    list-style: disc; /* Viñetas de disco */
+    margin-left: 3rem; /* Margen izquierdo */
+  }
+  
+  /* Estilos para recursos */
+  .recursos {
+    color: #6a11cb; 
+  }
+  
+  /* FORMULARIOS */
+  /* Contenedor para formularios de login y registro */
+  /* El tamaño máximo asegura que el formulario no exceda un ancho específico en pantallas grandes */
+  .contenedor-formularios {
+    width: 100%; /* Ancho completo en dispositivos móviles */
+    max-width: 25rem; /* Ancho máximo en pantallas más grandes */
+    margin: 2rem auto; /* Centra el formulario horizontalmente */
+    padding: 2rem; /* Relleno interno */
+    background: rgba(0, 0, 0, 0.8); 
+    border-radius: 0.6rem; /* Bordes redondeados */
+  }
+  
+  /* Formulario de login */
+  #Formulario__Login {
+    flex-direction: column; /* Dirección en columna */
+    gap: 1rem; /* Espacio entre elementos */
+  }
+  
+  /* Clase para formularios activos */
+  .formulario--activo {
+    display: flex; 
+  }
+  
+  /* Título de inicio de sesión */
+  .titulo__iniciosesion {
+    text-align: center; /* Centra el texto */
+    margin-bottom: 1.5rem; /* Margen inferior */
+    color: #fff; /* Color de texto blanco */
+  }
+  
+  /* Estilos para los inputs de sesión */
+  .entrada__sesion {
+    padding: 0.8rem; /* Relleno interno */
+    border: 2px solid #fff; /* Borde blanco */
+    border-radius: 5px; /* Bordes redondeados */
+    outline: none; /* Sin contorno al enfocar */
+    font-size: 1rem; 
+    background: #222; 
+    color: #fff; 
+  }
+  
+  /* Estilos al enfocar los inputs */
+  .entrada__sesion:hover {
+    border-color: #a96f47; /* Cambia el color del borde */
+  }
+  
+  /* Estilos para el botón de sesión */
+  .boton__sesion {
+    padding: 0.8rem; /* Relleno interno */
+    border: none; /* Sin borde */
+    border-radius: 5px; /* Bordes redondeados */
+    background: #A96F47; /* Fondo */
+    color: #fff; 
+    font-size: 1rem; 
+    cursor: pointer; /* Cambia el cursor al pasar */
+    transition: background 0.3s ease; /* Transición suave */
+  }
+  
+  /* Estilos al pasar el cursor sobre el botón */
+  .boton__sesion:hover {
+    background: #5D4A39; 
+  }
+  
+  /* Pregunta sobre registro */
+  .pregunta_sesion {
+    text-align: center; /* Centra el texto */
+  }
+  
+  /* Enlaces para alternar sesión */
+  .alternar__sesion {
+    color: #FBCE02; /* Color del enlace */
+    text-decoration: none; /* Sin subrayado */
+  }
+  
+  /* Estilos al pasar el cursor sobre el enlace */
+  .alternar__sesion:hover {
+    text-decoration: underline; /* Subraya el texto */
+    color: #F27B57; /* Cambia el color del texto */
+  }
+  
+  /* FOOTER */
+  /* Estilos para el pie de página */
+  .pie {
+    margin-top: auto; /* Empuja el pie al final */
+    background: black; 
+    text-align: center; /* Centra el texto */
+    padding: 1rem; /* Relleno interno */
+    color: #fff; /* Color de texto blanco */
+  }
+  
+  /* Estilos para enlaces en el pie */
+  .pie__enlace {
+    color: #FBCE02; 
+  }
+  
+  /* Estilos al pasar el cursor sobre el enlace */
+  .pie__enlace:hover {
+    color: #F27B57; 
+  }
+  
+  /* Lista de redes sociales en el pie */
+  .pie__redes {
+    display: flex; /* Usamos flexbox */
+    justify-content: center; /* Centrado horizontal */
+    gap: 1rem; /* Espacio entre elementos */
+    list-style: none; /* Sin viñetas */
+    padding: 0; /* Sin relleno interno */
+    margin: 1rem 0; /* Márgenes verticales */
+  }
+  
+  /* Estilos para los iconos de redes sociales */
+  .redes__icono {
+    color: #FBCE02; 
+    font-weight: bold; /* Texto en negrita */
+    text-decoration: none; /* Sin subrayado */
+  }
+  
+  /* Estilos al pasar el cursor sobre los iconos */
+  .redes__icono:hover {
+    color: #F27B57; 
+  }
+  
+  /* IMAGEN MENU */
+  /* Estilos para el logo en la cabecera */
+  .cabecera__logo {
+    width: 6rem; /* Ancho del logo */
+  }
+  
+  /* Estilos para el menú en la cabecera */
+  .cabecera__menu {
+    display: flex;
+    gap: 1rem;
+    list-style: none;
+  }
+  
+  /* Estilos para los enlaces del menú */
+  .menu__enlace {
+    color: #FBCE02;
+    text-decoration: none; /* Sin subrayado */
+    font-size: 1rem; /* Tamaño de fuente */
+    transition: all 0.3s ease; /* Transición suave */
+  }
+  
+  /* Estilos al pasar el cursor sobre los enlaces */
+  .menu__enlace:hover {
+    font-size: 1.2rem; /* Aumenta el tamaño de fuente */
+    color: #F27B57;
+    text-decoration: underline;
+  }
+  
+  /* Menú móvil */
+  /* Ocultamos la cabecera móvil por defecto */
+  .cabecera__movil {
+    display: none; /* Oculto */
+    width: 100%; /* Ancho completo */
+    background: black; 
+    padding: 1rem; /* Relleno interno */
+  }
+  
+  /* Estilos para el logo en móvil */
+  .cabecera__logo__movil {
+    width: 5rem; /* Ancho del logo */
+  }
+  
+  /* Ocultamos la entrada del menú móvil */
+  .menu__entrada__cabecera__movil {
+    display: none; /* Oculto */
+  }
+  
+  /* Estilos para el icono del menú móvil */
+  /* Su tamaño y color permiten una interacción fácil en pantallas pequeñas */
+  .menu__cabecera__movil {
+    font-size: 2rem; /* Tamaño grande para facilitar el toque */
+    color: white; 
+    cursor: pointer; /* Indica que es interactivo */
+  }
+  
+  /* Ocultamos la zona del menú móvil por defecto */
+  .cabecera__zona__movil {
+    display: none; /* Oculto */
+  }
+  
+  /* Mostramos la zona del menú móvil al activar el checkbox */
+  .menu__entrada__cabecera__movil:checked ~ .cabecera__zona__movil {
+    display: flex; /* Mostramos el menú */
+    flex-direction: column; /* Dirección en columna */
+    gap: 1rem; /* Espacio entre elementos */
+  }
+  
+  /*Lenguajes imagenes viñetas*/
+  .lenguajes__apartado__idiomas{
+    width: 100%;
+    gap: 2rem;
+    display: flex;
+    flex-wrap: wrap; /*ESTO ES PARA QUE LOS HIJOS PUEDAN USAR SUS TAMAÑOS*/
+    justify-content:space-between;
+  
+    padding: 1rem 4rem;
+  }
+  .lenguajes__titulo__idiomas{
+    width: 100%;
+    padding: 4rem;
+    text-align: center;
+    font-size: 2.2rem;
+    color: #5D4A39;
+  }
+  
+  .lenguajes__viñetas__idiomas{
+    width: 30%;
+    position: relative; /*ESTO ES PARA QUE LOS HIJOS DE ESTA ETIQUETA SE POSICION EN FUNCIÓN AL TAMAÑO DE ESTE TAMAÑO*/
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 0.5rem;
+    
+  }
+  .lenguajes__imagen__idiomas{
+    width: 100%;
+  
+    border-radius: 2rem;
+  }
+  
+  .lenguajes__nombre__idiomas{
+    font-size: 2rem;
+    color: #5D4A39;
+  }
+  
+  .lenguajes__enlace__idiomas {
+    padding: 0.5rem 1rem; /* Reducimos el padding */
+    font-size: 1rem; /* Reducimos el tamaño de la fuente */
+    border-radius: 0.5rem;
+    color: white;
+    background-color: #5D4A39;
+    text-decoration: none; /*Quitamos subrayado*/
+    align-items: center;
+    justify-content: center; /*alineamos en el centro*/
+    height: 3rem; /*Para que no se ajuste automaticamente a la caja*/
+    display: flex; /* Usamos inline-block para poder controlar el ancho y alto */
+  }
+  
+  .lenguajes__enlace__idiomas:hover{
+    background-color: #FBCE02;
+  }
+  
+  
+  
+  /* Media Queries */
+  /* Estilos aplicados cuando el ancho de la pantalla es menor o igual a 800px */
+  @media (max-width: 964px) {
+    .cabecera {
+      display: none; /* Ocultamos la cabecera estándar en dispositivos móviles */
+    }
+    .buscador__inicio{
+      width: 25rem;
+    }
+  
+    .cabecera__movil {
+      display: flex; /* Mostramos la cabecera móvil */
+      align-items: center; /* Centra verticalmente los elementos dentro de la cabecera móvil */
+      justify-content: space-between; /* Separa el logo y el ícono de menú a los extremos */
+      padding: 0.5rem 1rem; /* Relleno interno */
+      background-color: black; 
+    }
+  
+    .menu__entrada__cabecera__movil {
+      display: none; /* Ocultamos por defecto */
+    }
+  
+    .cabecera__zona__movil {
+      display: none; /* Ocultamos por defecto */
+      position: absolute; /* Posición absoluta */
+      top: 60px; /* Debajo de la cabecera */
+      right: 0; /* A la derecha */
+      width: auto; /* Ancho completo */
+      flex-direction: column; /* Dirección en columna */
+      background-color: black; /* Fondo negro */
+      padding: 1rem; /* Relleno interno */
+      z-index: 100; /* Sobre otros elementos */
+    }
+  
+    .menu__cabecera__movil {
+      font-size: 2rem; 
+      color: white;
+      cursor: pointer; /* Cambia el cursor al pasar */
+      user-select: none; /* Evita la selección de texto */
+    }
+  
+    .menu__enlace__movil {
+      color: white; 
+      text-decoration: none; /* Sin subrayado */
+      margin: 0.5rem 0; /* Márgenes verticales */
+      font-size: 1.2rem;
+      margin-left: 2rem;
+    }
+  
+  
+  
+    .menu__enlace__movil:hover {
+      color: rgb(255, 132, 0);
+      font-size: 1.4rem;
+      text-decoration:underline;
+    }
+    .cabecera__zona__menu__movil{
+      flex-direction: column;
+      gap: 9px;
+    }
+    .cabecera__zona__movil{
+      margin-top: 2.5rem;
+      justify-content: space-between;
+      align-items: center;
+      padding: 10px 20px;
+      gap: 30px;
+      flex-direction: column;
+      background: #5D4A39;
+      position: absolute;
+      top: 60px;
+      right: 20px;
+      border-radius: 8px;
+    }
+    .cabecera__zona__movil.show{
+      display: flex;
+    }
+    
+    .cabecera__zona__menu__movil a {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    padding: auto auto;
+    transition: all 0.3s ease;
+    }
+  
+    .cabecera__zona__menu__movil a:hover {
+      background-color: #FBCE02;
+      border-radius: 5px;
+      color: black;
+      
+    }
+    .lenguajes__apartado__idiomas{
+      flex-direction: column;
+      align-content: center;
+      align-items: center;
+    }
+  }
+    
+  
+  
+  

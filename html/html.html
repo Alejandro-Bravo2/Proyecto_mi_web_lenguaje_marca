@@ -17,7 +17,6 @@
     <!-- Cabecera del sitio web -->
     <header class="cabecera">
       <a href="main.html">
-        <!-- Enlace a la página principal -->
         <img
           class="cabecera__logo"
           src="../assets/logo.png"
@@ -25,22 +24,18 @@
         />
       </a>
       <article class="cabecera__zona">
-        <!-- Contenedor para formulario y menú -->
         <form class="cabecera__formulario">
-          <!-- Formulario de búsqueda -->
           <input
             class="formulario__input"
             type="text"
             placeholder="Buscar contenido..."
           />
-          <button class="formulario__boton" type="submit">Buscar</button>
-          <!-- Botón para enviar el formulario -->
+          <button class="formulario__boton" type="submit">buscar</button>
         </form>
         <nav>
-          <!-- Menú de navegación -->
           <ul class="cabecera__zona__menu">
-            <!-- Lista de elementos del menú -->
             <li><a class="menu__enlace" href="main.html">Inicio</a></li>
+            <li><a class="menu__enlace" href="idiomas.html">Lenguajes</a></li>
             <li><a class="menu__enlace" href="python.html">Python</a></li>
             <li><a class="menu__enlace" href="css.html">CSS</a></li>
             <li><a class="menu__enlace" href="html.html">HTML</a></li>
@@ -52,29 +47,23 @@
         </nav>
       </article>
     </header>
-
-    <!-- Cabecera para dispositivos móviles -->
     <header class="cabecera__movil">
       <a href="main.html">
-        <!-- Enlace a la página principal -->
-        <img src="../assets/logo.png" alt="LOGO TIENDA" class="cabecera__logo__movil"/>
+        <img
+          class="cabecera__logo__movil"
+          src="../assets/logo.png"
+          alt="LOGO TIENDA"
+        />
       </a>
       <input type="checkbox" id="menu" class="menu__entrada__cabecera__movil" />
-      <!-- Checkbox para controlar la visibilidad del menú móvil -->
       <label for="menu" class="menu__cabecera__movil">☰</label>
-      <!-- Icono de menú hamburguesa -->
       <nav class="cabecera__zona__movil">
-        <!-- Menú de navegación móvil -->
         <ul class="cabecera__zona__menu__movil">
-          <!-- Lista de enlaces del menú móvil -->
           <li><a class="menu__enlace__movil" href="main.html">Inicio</a></li>
-          <!-- Enlace a Inicio -->
+          <li><a class="menu__enlace__movil" href="idiomas.html">Lenguajes</a></li>
           <li><a class="menu__enlace__movil" href="python.html">Python</a></li>
-          <!-- Enlace a Python -->
           <li><a class="menu__enlace__movil" href="css.html">CSS</a></li>
-          <!-- Enlace a CSS -->
           <li><a class="menu__enlace__movil" href="html.html">HTML</a></li>
-          <!-- Enlace a HTML -->
           <li>
             <a class="menu__enlace__movil" href="registro.html">Registro</a>
           </li>
