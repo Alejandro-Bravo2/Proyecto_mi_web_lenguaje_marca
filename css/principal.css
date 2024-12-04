@@ -485,7 +485,24 @@ code {
   gap: 1rem; /* Espacio entre elementos */
 }
 
+.contenido__mantenimiento{
+  text-align: center;
+}
 
+.titulo__inicio__mantenimiento {
+  padding-top: 10%; /* Añade un espacio superior equivalente al 10% de la altura del contenedor padre */
+  font-size: 4rem; 
+  color: #5D4A39; 
+  font-family: Verdana; 
+  text-align: center;
+  align-content: center;
+  align-items: center;
+}
+
+/* Estilos para el subtítulo */
+.contenido__titulo__mantenimiento {
+  color: #FBCE02; 
+}
 
 /* Media Queries */
 /* Estilos aplicados cuando el ancho de la pantalla es menor o igual a 800px */
@@ -576,6 +593,9 @@ code {
     border-radius: 5px;
     color: black;
     
+  }
+  .titulo__inicio__mantenimiento{
+    font-size: 3rem;
   }
 
   
